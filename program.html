@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+
+    <title>Machine Learning in HPC Environments - Program </title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="rrcf2014.css" rel="stylesheet">
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+          <div class="container">
+
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              	<a class="brand" href="index.html"> <img src="images/mlhpc.png" alt=""Machine Learning in HPC Environments"MLHPC2018"></a>
+            </div>
+
+            <div class="navbar-collapse collapse pull-right">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="http://sc17.supercomputing.org/attend">Venue</a></li>
+                <li><a href="index.html#important-dates">Important Dates</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Information<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="cfp.html">Call for Papers</a></li>
+<!--                         <li><a href="keynotespeakers.html">Keynotes</a></li> -->
+                        <li><a href="program.html">Program</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+          			<a href="#" class="dropdown-toggle" data-toggle="dropdown">Committees<b class="caret"></b></a>
+          			<ul class="dropdown-menu">
+            			<li><a href="organizingcommittee.html">Organizing Committee</a></li>
+            			<li><a href="steeringcommittee.html">Steering Committee</a></li>
+            			<li><a href="programcommittee.html">Program Committee</a></li>
+            		</ul>
+        		</li>
+                <li><a href="index.html#contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- START THE FEATURETTES -->
+      
+      
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Workshop <span class="text-muted">Program</span></h2>
+	  <p class="lead"> <a href="https://sc18.supercomputing.org/session/?sess=sess221">Sunday</a></p>
+    <p class="lead"> <a href="https://sc18.supercomputing.org/session/?sess=sess151">Monday</a></p>
+	  <!--
+          <a href=http://denverconvention.com/uploads/content/Meeting_Room_Level_Map.jpg><p class="lead">Location: 503-504</p></a>
+		<a href=http://sc17.supercomputing.org/session/?sess=sess422><p class="lead">Our workshop program is now available on the SC website.</p></a>
+          <p class="lead">Date: Monday November 13, 2018</p>
+          <p class="lead">Time: 9:00am - 5:00pm</p>
+		<a href=papers/mlhpc2018_slides.zip><p class="lead">Slides (all slides up)</p></a>
+		<a href=https://dl.acm.org/citation.cfm?id=3146347><p class="lead">Link to papers (now available)</p></a>
+	  -->
+        </div>
+        <div class="col-md-5">
+          <!-- <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image"> -->
+        </div>
+      </div>
+     <!--      
+       <hr class="featurette-divider">
+      
+      <div class="row featurette">
+        
+   
+        <div class="col-md-7">
+		<h2 class="lead">Workshop Introduction (9:00 am) <br> </h2>
+	  <p class="lead"><span class="text-muted">Steven Young, Oak Ridge National Laboratory</span></p>
+	</div>
+	
+      </div>
+	        -->
+      <hr class="featurette-divider">
+	    
+	<div class="row featurette">
+        
+ <!--       
+        <div class="col-md-7">
+          <h2 class="lead">Keynote:  Leadership AI: Progress and Opportunity at Oak Ridge Leadership Computing Facility (9:10 am)<br> </h2>
+	  <p class="lead"><span class="text-muted">Jack Wells, Oak Ridge National Laboratory</span></p>
+          <p> </p>
+		<p><a href=papers/1_Keuper.pdf>[Presentation]</a></p> 
+	</div>
+        
+      </div>
+
+	  
+      <hr class="featurette-divider">
+	    
+	    	<div class="row featurette">
+        
+        
+        <div class="col-md-7">
+		<h2 class="lead">TensorQuant - A Simulation Toolbox for Deep Neural Network Quantization (9:35 am)<br> </h2>
+		<p class="lead"><span class="text-muted">Dominik Marek Loroch, Franz-Josef Pfreundt (Fraunhofer), Norbert Wehn (TU Kaiserslautern), Janis Keuper (Fraunhofer)</span></p>
+		<p>Recent research implies that training and inference of deep 
+neural networks (DNN) can be computed with low precision 
+numerical representations of the training/test data, weights 
+and gradients without a general loss in accuracy. The benefit 
+of such compact representations is twofold: they allow a 
+significant reduction of the communication bottleneck in 
+distributed DNN training and faster neural network implementations 
+on hardware accelerators like FPGAs. Several 
+quantization methods have been proposed to map the original 
+32-bit floating point problem to low-bit representations. 
+While most related publications validate the proposed approach 
+on a single DNN topology, it appears to be evident, 
+that the optimal choice of the quantization method and number 
+of coding bits is topology dependent. To this end, there 
+is no general theory available, which would allow users to 
+derive the optimal quantization during the design of a DNN 
+topology. 
+In this paper, we present a quantization tool box for the 
+Tensor Flow framework. TensorQuant allows a transparent 
+quantization simulation of existing DNN topologies during 
+training and inference. TensorQuant supports generic quantization 
+methods and allows to experimentally evaluate the 
+impact of the quantization on single layers as well as the 
+on the full topology. In a first series of experiments with 
+TensorQuant, we show an analysis of fix-point quantizations 
+of popular CNN topologies.
+</p>
+		<p><a href=papers/2_Cong.pdf>[Presentation]</a></p> 
+        </div>
+        
+      </div>
+	  
+      <hr class="featurette-divider">
+
+	<div class="row featurette">
+        
+        
+        <div class="col-md-7">
+		<h2 class="lead">Coffee Break (10:00 am)</h2>
+        </div>
+        
+      </div>
+	  
+      <hr class="featurette-divider">
+	    
+	    	    	<div class="row featurette">
+        
+        
+        <div class="col-md-7">
+          <h2 class="lead">An Efficient Task-based All-Reduce for Machine Learning Applications (10:30 am)<br></h2>
+		<p class="lead"><span class="text-muted">Zhenyu Li, James Davis, Stephen Jarvis (University of Warwick)</span></p>
+		<p>All-Reduce is a collective-combine operation frequently utilised in synchronous parameter updates in parallel machine learning algorithms. The performance of this operation - and subsequently of the algorithm itself - is heavily dependent on its implementation, configuration and on the supporting hardware on which it is run. Given the pivotal role of all-reduce, a failure in any of these regards will significantly impact the resulting scientific output. 
+
+In this research we explore the performance of alternative all-reduce algorithms in data-flow graphs and compare these to the commonly used reduce-broadcast approach. We present an architecture and interface for all-reduce in task-based frameworks, and a parallelization scheme for object-serialization and computation. We present a concrete, novel application of a butterfly all-reduce algorithm on the Apache Spark framework on a high-performance compute cluster, and demonstrate the effectiveness of the new butterfly algorithm with a logarithmic speed-up with respect to the vector length compared with the original reduce-broadcast method - a 9x speed-up is observed for vector lengths in the order of 10^8. This improvement is comprised of both algorithmic changes (65%) and parallel-processing optimization (35%). 
+
+The effectiveness of the new butterfly all-reduce is demonstrated using real-world neural network applications with the Spark framework. For the model-update operation we observe significant speed-ups using the new butterfly algorithm compared with the original reduce-broadcast, for both smaller (Cifar and Mnist) and larger (ImageNet) datasets.</p>
+		<p><a href=papers/3_Dryden.pdf>[Presentation]</a></p> 
+        </div>
+        
+      </div>
+	  
+      <hr class="featurette-divider">
+	    
+	    	    	    	<div class="row featurette">
+        
+        
+        <div class="col-md-7">
+          <h2 class="lead">Accelerating deep neural network learning for speech recognition on a cluster of GPUs (10:55 am)<br></h2>
+		<p class="lead"><span class="text-muted">Guojing Cong, Brian Kingsbury, Soumyadip Gosh, George Saon (IBM), Fan	Zhou (Georgia Institute of Technology)</span></p>
+		<p>We train deep neural networks to solve the acoustic 
+modeling problem for large-vocabulary continuous speech recognition. 
+We employ distributed processing using a cluster of GPUs. On modern 
+GPUs, the sequential implementation takes over a day to train, and 
+efficient parallelization without losing accuracy is notoriously hard. 
+We show that \ASGD methods for parallelization are not efficient for this 
+application. Even with 4 GPUs, the overhead is significant, and the 
+accuracies achieved are poor. We adapt a P-learner K-step model averaging 
+algorithm that with 4 GPUs achieves accuracies comparable to that 
+achieved by the sequential implementation. We further introduce adaptive measures that 
+make our parallel implementation scale to the full cluster of 20 GPUs. 
+Ultimately our parallel implementation achieves better accuracies than the sequential 
+implementation with a 6.1 times speedup. </p>
+		<p><a href=papers/4_Tsai.pdf>[Presentation]</a></p> 
+        </div>
+        
+      </div>
+	  
+      <hr class="featurette-divider">
+	    
+	    	    	    	    	<div class="row featurette">
+        
+        
+        <div class="col-md-7">
+          <h2 class="lead">Optimizing Convolutional Neural Networks for Cloud Detection (11:20 am)<br></h2>
+		<p class="lead"><span class="text-muted">Travis	Johnston, Steven Young,	Robert Patton, David Hughes, Devin White (Oak Ridge National Laboratory)</span></p>
+          <p>Deep convolutional neural networks (CNNs) have become extremely popular and successful at a number of machine learning tasks. One of the great challenges of successfully deploying a CNN is designing the network: specifying the network topology (sequence of layer types) and configuring the network (setting all the internal layer hyper-parameters). There are a number of techniques which are commonly used to design the network. One of the most successful is a simple (but lengthy) random search. 
+In this paper we demonstrate how a random search can be dramatically improved 
+by a two-phase search. The first phase is a traditional random search on n network configurations. The second phase exploits a support vector machine to guide a second random search on N network configurations. We apply this technique to a dataset containing satellite imagery and demonstrate that we can, with very high accuracy, identify regions containing clouds which obscure the landscape below. </p>
+<p><a href=papers/5_Potok.pdf>[Presentation]</a></p> 
+        </div>
+        
+      </div>
+	  
+      <hr class="featurette-divider">
+	    
+	    	    	    	    	    	<div class="row featurette">
+        
+        
+        <div class="col-md-7">
+          <h2 class="lead">Training distributed deep recurrent neural networks with mixed precision on GPU clusters (11:45 am)<br></h2>
+		<p class="lead"><span class="text-muted">Alexey	Svyatkovskiy (Princeton University), Julian Kates-Harbeck (Harvard University), William	Tang (Princeton University)</span></p>
+		<p>In this paper, we evaluate training of deep recurrent neural networks with half-precision floats. We implement a distributed, data-parallel, synchronous training algorithm by integrating TensorFlow and CUDA-aware MPI to enable execution across multiple GPU nodes and making use of high-speed interconnects. We introduce a learning rate schedule facilitating neural network convergence at up to $O(100)$ workers. 
+
+Strong scaling tests performed on clusters of NVIDIA Pascal P100 GPUs show linear runtime scaling and logarithmic communication time scaling for both single and mixed precision training modes. Performance is evaluated on a scientific dataset taken from the Joint European Torus (JET) tokamak, containing multi-modal time series of sensory measurements leading up to deleterious events called plasma disruptions. Half-precision significantly reduces memory and network bandwidth, allowing training of state-of-the-art models with over 70 million trainable parameters while achieving a comparable test set performance as single precision.</p>
+		<p><a href=papers/6_Schuman.pdf>[Presentation]</a></p> 
+        </div>
+        
+      </div>
+	  
+      <hr class="featurette-divider">
+	    
+	<div class="row featurette">
+        
+        
+        <div class="col-md-7">
+          <h2 class="lead">Towards Scalable Parallel Training of Deep Neural Networks (12:10 pm)<br></h2>
+		<p class="lead"><span class="text-muted">Sam Ade Jacobs (Lawrence Livermore National Laboratory), Nikoli Dryden (University of Illinois at Urbana-Champaign), Roger Pearce, Brian Van Essen (Lawrence Livermore National Laboratory)</span></p>
+		<p>We propose a new framework for parallelizing deep neural network training that maximize the amount of data that is ingested by the training algorithm. Our proposed framework called Livermore Tournament Fast Batch Learning (LTFB) targets large-scale data problems. The LTFB approach creates a set of Deep Neural Network (DNN) models and trains each instance of these models independently and in parallel. Periodically, each model selects another model to pair with, exchanges models, and then run a local tournament against held-out tournament datasets. The winning model is will continue training on the local training datasets. This new approach maximizes computation and minimizes amount of synchronization required in training deep neural network, a major bottleneck in existing synchronous deep learning algorithms. We evaluate our proposed algorithm on two HPC machines at Lawrence Livermore National Laboratory including an early access IBM Power8+ with NVIDIA Tesla P100 GPUs machine. Experimental evaluations of the LTFB framework on two popular image classification benchmark: CIFAR10 and ImageNet, show significant speed up compared to the sequential baseline.</p>
+<p><a href=papers/7_Camelo.pdf>[Presentation]</a></p> 
+        </div>
+        
+      </div>
+	  
+      <hr class="featurette-divider">
+   
+<div class="row featurette">
+        
+        
+        <div class="col-md-7">
+          <h2 class="lead">BlazingText: Scaling and Accelerating Word2Vec using Multiple GPUs (12:10 pm)<br></h2>
+		<p class="lead"><span class="text-muted">Saurabh Gupta, Vineet Khare (Amazon Web Services)</span></p>
+		<p>Word2Vec is a popular algorithm used for generating dense vector representations of words in large corpora using unsupervised learning. The resulting vectors have been shown to capture semantic relationships between the corresponding words and are used extensively for many downstream natural language processing (NLP) tasks like sentiment analysis, named entity recognition and machine translation. Most open-source implementations of the algorithm have been parallelized for multi-core CPU architectures including the original C implementation by Mikolov et al. and FastText by Facebook. A few other implementations have attempted to leverage GPU parallelization but at the cost of accuracy and scalability. In this work, we present BlazingText, a highly optimized implementation of word2vec in CUDA, that can leverage multiple GPUs for training. BlazingText can achieve a training speed of up to 43M words/sec on 8 GPUs, which is a 9x speedup over 8-threaded CPU implementations, with minimal effect on the quality of the embeddings.</p>
+<p><a href=papers/7_Camelo.pdf>[Presentation]</a></p> 
+        </div>
+        
+      </div>
+	  
+      <hr class="featurette-divider">
+
+<div class="row featurette">
+        
+        
+        <div class="col-md-7">
+          <h2 class="lead">Evolving Deep Networks Using HPC (12:10 pm)<br></h2>
+		<p class="lead"><span class="text-muted">Steven Young, Derek Rose (Oak Ridge National Laboratory)</span></p>
+		<p>While a large number of deep learning networks have been studied and published that produce outstanding results on natural image datasets, these datasets only make up a fraction of those to which deep learning can be applied. These datasets include text data, audio data, and arrays of sensors that have very different characteristics than natural images. As these "best" networks for natural images have been largely discovered through experimentation and cannot be proven optimal on some theoretical basis, there is no reason to believe that they are the optimal network for these drastically different datasets. Thus, hyperparameter search is often a very important process when applying deep learning to a new problem. In this work we present an evolutionary approach to searching the possible space of network hyperparameters and construction that can scale to 18,000 nodes. This approach is applied to datasets of varying types and characteristics where we demonstrate the ability to rapidly find best hyperparameters in order to reduce enable practitioners to quickly iterate between idea and result.</p>
+<p><a href=papers/7_Camelo.pdf>[Presentation]</a></p> 
+        </div>
+        
+      </div>
+	  
+      <hr class="featurette-divider">
+
+<div class="row featurette">
+        
+        <div class="col-md-7">
+          <h2 class="lead">An In-depth Performance Characterization of CPU- and GPU-based DNN Training on Modern Architectures (12:10 pm)<br></h2>
+		<p class="lead"><span class="text-muted">Ammar Ahmad Awan, Hari Subramoni, Dhabaleswar K. Panda (Ohio State University)</span></p>
+		<p>Traditionally, Deep Learning (DL) frameworks like Caffe, TensorFlow, and Cognitive
+Toolkit exploited GPUs to accelerate the training process. This has been primarily achieved by aggressive improvements in parallel hardware as well as through sophisticated software frameworks like cuDNN and cuBLAS. However, recent enhancements to CPU-based hardware and software has the potential to significantly enhance the performance of CPU-based DL training. In this paper, we provide a complete performance landscape of CPU- and GPU-based DNN training. We characterize performance of DNN training for AlexNet and
+ResNet-50 for a wide-range of CPU and GPU architectures including the latest Intel Xeon Phi (Knights Landing) processors and NVIDIA Pascal GPUs. We also present multi-node DNN training performance results for AlexNet and ResNet-50 using Intel Machine Learning Scaling (MLSL) Library and Intel-Caffe. In addition, we provide a CPU vs. GPU comparison for multi-node training using OSU-Caffe and Intel-Caffe. To the best of our knowledge, this is the first study that dives deeper into the performance of DNN training in a holistic manner yet provides an in-depth look at layer-wise performance for different DNNs. We provide multiple key insights: 1) Convolutions account for the majority of
+time (up to 83% time) consumed in DNN training, 2) GPU-based training continues to deliver
+excellent performance (up to 18% better than KNL) across generations of GPU hardware and software, and 3) Recent CPU-based optimizations like MKL-DNN and OpenMP-based thread
+parallelism leads to excellent speed-ups over under-optimized designs (up to
+3.2X improvement for AlexNet training).</p>
+<p><a href=papers/7_Camelo.pdf>[Presentation]</a></p> 
+        </div>
+        
+      </div>
+	  
+      <hr class="featurette-divider">
+
+<div class="row featurette">
+        
+        <div class="col-md-7">
+          <h2 class="lead">Designing a Synchronization-reducing Clustering Method on Manycores: Some Issues and Improvements (12:10 pm)<br></h2>
+		<p class="lead"><span class="text-muted">Weijian Zheng,	Fengguang Song (Indiana University-Purdue University Indianapolis), Lan	Lin (Ball State University)</span></p>
+		<p>The k-means clustering method is one of the most widely used techniques in big data analytics. In this paper, we explore the ideas of software blocking, asynchronous local optimizations, and heuristics of simulated annealing to improve the performance of k-means clustering. Like most of the machine learning methods, the performance of k-means clustering relies on two main factors: the computing speed (per iteration), and the convergence rate. A straightforward realization of the software-blocking synchronization-reducing clustering algorithm, however, sees sporadic slower convergence rate than the standard k-means algorithm. To tackle the issues, we design an annealing-enhanced algorithm, which introduces the heuristics of stop conditions and annealing steps to provide as good or better performance than the standard k-means algorithm. This new enhanced k-means clustering algorithm is able to o er the same clustering quality as the standard k-means. Experiments with real-world datasets show that the new parallel implementation is faster than the open source HPC library of Parallel K-Means Data Clustering (e.g., 19% faster on relatively large datasets with 32 CPU cores, and 11% faster on a large dataset with 1,024 CPU cores). Moreover, the extent to which the program performance improves is largely determined by the actual convergence rate of applying the algorithm to di erent datasets.</p>
+<p><a href=papers/7_Camelo.pdf>[Presentation]</a></p> 
+        </div>
+        
+      </div>
+	  
+      <hr class="featurette-divider">
+   
+      -->
+
+      <!-- FOOTER -->
+      <footer>
+      	<div style="width: 100%;overflow:auto;">
+          <div style="float:left; width: 50%">
+
+            <a name="contact"></a>
+            <p><b>Contact:  Steven R. Young</b>, youngsr "at" ornl.gov</p>
+            <p>&copy; 2018 Oak Ridge National Laboratory</p>
+          </div>
+           
+          <div style="float:right;">
+            <p>In cooperation with</p>
+            <a class="brand" href="http://www.sighpc.org/"> <img src="images/sighpc_logo_72dpi.jpg" alt="Machine Learning in HPC Environments"></a>
+          </div>
+          
+        </div>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="./dist/js/bootstrap.min.js"></script>
+    <script src="./assets/js/docs.min.js"></script>
+  </body>
+</html>
