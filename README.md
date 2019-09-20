@@ -1,3 +1,3 @@
-# 5th Workshop on Machine Learing in HPC Environments
+# 1st Workshop on Scholarly Document Processing
 
-Find out more at [MLHPC2019](http://ornlcda.github.io/MLHPC2019).
+Find out more at [SDProc](http://ornlcda.github.io/SDProc).
