@@ -12,8 +12,6 @@ ul.dates {
 	/* list-style-image: url('sqpurple.gif'); */
 }
 
-
-
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
@@ -40,7 +38,6 @@ ul.dates {
   /* remove the gradient */
   background-image: none;
 }
-
 
 .nav {
  margin-top: 20px;
@@ -78,8 +75,6 @@ a.brand img {
   height: 500px;
 }
 
-
-
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
@@ -106,7 +101,6 @@ a.brand img {
 /* Featurettes
 ------------------------- */
 
-
 .featurette-first-divider {
   margin: 80px 0; /* Space out the Bootstrap <hr> more */
 }
@@ -129,12 +123,6 @@ a.brand img {
     width: 200px;
     margin: auto;
 }
-
-
-
-
-
-
 
 /* Site Specific
 ------------------------- */
@@ -209,7 +197,15 @@ a.brand img {
     margin-top: 90px;
   }
 
+  .first-heading {
+    margin-top: 90px;
+  }
+
   .navbar-spacing {
     margin-top: 75px;
   }
+}
+
+p.lead {
+  font-size: 20px;
 }

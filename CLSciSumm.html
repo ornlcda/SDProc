@@ -1,187 +1,326 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
 
-    <title>1st Workshop on Scholarly Document Processing</title>
+<head>
 
-    <!-- Bootstrap core CSS -->
-    <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
 
-    <!-- Just for debugging purposes. Don't actually copy this line! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+  <title>CL-SciSumm 2020</title>
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
+  <!-- Bootstrap core CSS -->
+  <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <!-- Custom styles for this template -->
-    <link href="rrcf2014.css" rel="stylesheet">
-  </head>
-<!-- NAVBAR
-================================================== -->
-  <body>
-    <div class="navbar-wrapper">
-      <div class="container">
+  <!-- Custom styles for this template -->
+  <link href="rrcf2014.css" rel="stylesheet">
 
-        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
-          <div class="container">
+</head>
 
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              	<a class="brand" href="index.html"> <img src="images/sdproc.png" alt="First Workshop on Scholarly Document Processing"></a>
-            </div>
+<body>
 
-            <div class="navbar-collapse collapse pull-right">
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="https://acl2020.org/">Venue</a></li>
-		<li><a href="CLSciSumm.html">CLSciSumm</a></li>
-                <li><a href="LaySumm.html">LaySumm</a></li>
-                <li><a href="index.html#important-dates">Important Dates</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Information<b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="cfp.html">Call for Papers</a></li>
-                        <li><a href="keynotespeakers.html">Keynotes</a></li>
-                        <li><a href="program.html">Program</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown">
-          			<a href="#" class="dropdown-toggle" data-toggle="dropdown">Committees<b class="caret"></b></a>
-          			<ul class="dropdown-menu">
-            			<li><a href="organizingcommittee.html">Organizing Committee</a></li>
-            			<li><a href="steeringcommittee.html">Steering Committee</a></li>
-            			<li><a href="programcommittee.html">Program Committee</a></li>
-            		</ul>
-        		</li>
-                <li><a href="index.html#contact">Contact</a></li>
-              </ul>
-            </div>
+  <!-- NAVBAR ================================================== -->
+
+  <div class="navbar-wrapper">
+    <div class="container">
+      <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="container">
+
+          <!-- MENU BUTTON FOR SMALL SCREENS ================================ -->
+
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="brand" href="index.html">
+              <img src="images/sdproc.png" alt="First Workshop on Scholarly Document Processing">
+            </a>
           </div>
+
+          <!-- MENU OPTIONS ================================================== -->
+
+          <div class="navbar-collapse collapse pull-right">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="https://acl2020.org/">Venue</a></li>
+              <li><a href="CLSciSumm.html">CLSciSumm</a></li>
+              <li><a href="LaySumm.html">LaySumm</a></li>
+              <li><a href="#important-dates">Important Dates</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Information<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="cfp.html">Call for Papers</a></li>
+                  <li><a href="keynotespeakers.html">Keynotes</a></li>
+                  <li><a href="program.html">Program</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Committees<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="organizingcommittee.html">Organizing Committee</a></li>
+                  <li><a href="steeringcommittee.html">Steering Committee</a></li>
+                  <li><a href="programcommittee.html">Program Committee</a></li>
+                </ul>
+              </li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <!-- MENU OPTIONS END ================================ -->
+
         </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- NAVBAR END ================================================== -->
+
+  <div class="container marketing navbar-spacing">
+
+    <div class="row">
+      <div class="col-md-12">
+
+        <!-- CFP INTRODUCTION ================================================== -->
+
+        <h1 class="first-heading">The 6<sup>th</sup> Computational Linguistics Scientific Document Summarization Shared
+          Task (CL-SciSumm 2020)</h1>
+
+        <h2>Call for Participation</h2>
+
+        <p>
+          CL-SciSumm is the first medium-scale shared task on scientific document summarization, with over 500 annotated
+          documents. <a href="https://wing.comp.nus.edu.sg/~cl-scisumm2019/">Last year's CL-SciSumm shared task</a>
+          introduced large scale training datasets, both annotated from ScisummNet and auto-annotated. For the task,
+          Systems were provided with a Reference Paper (RP) and 10 or more Citing Papers (CPs) that all contain
+          citations to the RP, which they used to summarise RP. This was evaluated against abstract and human written
+          summaries on ROUGE. The shared task attracted 17 registrations and 9 final system submissions. This year,
+          CL-SciSumm '20 will have two new tracks: <b>LaySumm</b> and <b>LongSumm</b>.
+        </p>
+
+        <hr class="featurette-divider">
+
+        <!-- TASKS ======================================================== -->
+
+        <h2>Tasks</h2>
+
+        <h3>LaySumm</h3>
+
+        <p>
+          To ensure and increase the relevance of science for all of society and not just a small group of niche
+          practitioners, researchers have been increasingly tasked by funders and publishers to outline the scope of
+          their research for a general public by writing a summary for a lay audience, or lay summary. The LaySumm
+          summarization task considers automating this responsibility, by enabling systems to automatically generate lay
+          summaries. A lay summary explains, succinctly and without using technical jargon, what the overall scope, goal
+          and potential impact of a scientific paper is.
+        </p>
+
+        <p>
+          The corpus for this task will comprise full-text papers with lay summaries, in a variety of domains, and from
+          a number of journals. Elsevier will make a collection of about 500 Lay Summaries available which are available
+          in Open Access from a collection of journals, as well as the abstracts and full text of these journals.
+        </p>
+
+        <p>
+          The Task will be to generate summaries that are representative of the content, comprehensible, and interesting
+          to a lay audience. The intrinsic evaluation will be done by ROUGE. In addition, a subset of randomly selected
+          summaries will undergo human evaluation by science journalists and communicators for comprehensiveness,
+          legibility and interest.
+        </p>
+
+        <p>
+          All nominated entries will be invited to publish a paper in Open Access (Author-Payment Charges will be
+          waived) in a selected Elsevier publication. Authors will be asked to provide an automatically generated lay
+          summary of their paper, together with their contribution.
+        </p>
+
+        <h3>LongSumm</h3>
+
+        <p>
+          The LongSumm Task focuses on generating long summaries of scientific articles which require expertise in a
+          scientific domain. To this end, we created a training set that consists of 1705 extractive summaries, and 200
+          abstractive summaries of NLP and Machine Learning scientific papers. These are drawn from papers based on
+          video talks from associated conferences (TalkSumm) and from blogs created by NLP and ML researchers. In
+          addition, we create a test set of 30 abstractive summaries. Each submission is judged against one reference
+          summary (gold summary) on ROUGE and should not exceed 600 words.
+        </p>
+
+        <hr class="featurette-divider">
+
+        <!-- CORPUS ================================================================== -->
+
+        <h2>Corpus</h2>
+
+        <p>
+          The training and test sets from previous years can be downloaded from <a
+            href="https://github.com/WING-NUS/scisumm-corpus">GitHub</a>.
+        </p>
+
+        <!-- IMPORTANT DATES ========================================================= -->
+
+        <h2>Important Dates</h2>
+
+        <p>
+          Please consult the <a href="index.html">SDP Workshop website</a> for official dates for the workshop.
+        </p>
+
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">Event</th>
+              <th scope="col">Date</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Training Set Release</td>
+              <td>TBA</td>
+            </tr>
+            <tr>
+              <td>Registration Deadline</td>
+              <td>TBA</td>
+            </tr>
+            <tr>
+              <td>Test Set Release</td>
+              <td>TBA</td>
+            </tr>
+            <tr>
+              <td>System Runs Due</td>
+              <td>TBA</td>
+            </tr>
+            <tr>
+              <td>Preliminary System Reports Due in EasyChair</td>
+              <td>TBA</td>
+            </tr>
+            <tr>
+              <td>Camera-Ready Contributions Due in EasyChair</td>
+              <td>TBA</td>
+            </tr>
+            <tr>
+              <td>Participant Presentations at SDP 2020</td>
+              <td>TBA</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <hr class="featurette-divider">
+
+        <!-- ORGANIZERS ================================================================= -->
+
+        <h2>Organizing Committee</h2>
+
+        <h3 class="featurette-name-heading"><a href="https://www.linkedin.com/in/muthukumarc87/">Muthu Kumar
+            Chandrasekaran</a></h3>
+        <p class="lead">SRI International, Menlo Park, USA</p>
+        <p>
+          Muthu Kumar Chandrasekaran is an Advanced Computer Scientist, Machine Learning at SRI International's
+          Artificial Intelligence Center. Previously he was a Ph.D. student at NUS School of Computing. He is broadly
+          interested in natural language processing, machine learning and their applications to information retrieval;
+          specifically, in retrieving and organising information from asynchronous conversation media such as scholarly
+          publications and discussion forums. He has been co-chairing the CL-SciSumm Shared Task series and the BIRNDL
+          workshop series since 2014. He also reviews for ACL, AAAI, EMNLP, NAACL, CoNLL and JCDL conferences. During
+          his PhD he also interned at the Allen Institute for Artificial Intelligence's Semantic Scholar research and
+          National Institute of Informatics, Tokyo.
+        </p>
+
+        <h3 class="featurette-name-heading"><a href="https://www.sri.com/about/people/dayne-freitag">Dayne Freitag</a>
+        </h3>
+        <p class="lead">SRI International, San Diego, USA</p>
+        <p>
+          He is Program Director at SRI's Artificial Intelligence Center. He leads the Advanced Analytics group. His
+          research seeks to apply artificial intelligence to information assimilation, management and exploitation.
+          Freitag has served as principal investigator for a number of research projects including several large,
+          multi-institutional efforts. His research goals have focused on the automation of data science; the automatic
+          extension of mechanistic models through machine reading; knowledge federation over diverse information sources
+          through data analytics and natural language processing; explaining the spread of ideas through online
+          communities; and novel approaches to institutional knowledge management using controlled English. Freitag
+          holds a B.A. in English literature from Reed College, and a Ph.D. in computer science from Carnegie Mellon
+          University.
+        </p>
+
+        <h3 class="featurette-name-heading"><a href="https://www.cs.cmu.edu/~hovy/">Eduard Hovy</a></h3>
+        <p class="lead">Research Professor, LTI, Carnegie Melon University</p>
+        <p>
+          His research includes work on computational semantics of human language (such as text analysis, event
+          detection and coreference, text summarization and generation, question answering, discourse processing,
+          ontologies, text mining, text annotation, and machine translation evaluation), aspects of social media (such
+          as event detection and tracking, sentiment and opinion analysis, and author profile creation), analysis of the
+          semantics of non-textual information such as tables, and aspects of digital government.
+        </p>
+
+        <h3 class="featurette-name-heading"><a
+            href="https://researcher.watson.ibm.com/researcher/view.php?person=il-DAVIDKO">David Konopnicki</a></h3>
+        <p class="lead">IBM Research AI, Haifa Research Lab, Israel</p>
+        <p>
+          David Konopnicki manages the Language and Retrieval group in IBM Research AI and is leading a variety of R&D
+          projects: development of large-scale full-text search engines, building customer profiles from enterprise and
+          social media sources, affective computing on conversations data and more. David leads the development of <a
+            hef="http://ibm.biz/sciencesum">IBM Science Summarizer</a>, a novel search engine for scientific literature.
+          David was a co-organizer of the THUM workshop at UMAP 2017, and the organizer of ISCOL 2018, and 2019.
+        </p>
+
+        <h3 class="featurette-name-heading"><a href="https://www.linkedin.com/in/anitadewaard/">Anita de Waard</a></h3>
+        <p class="lead">Elsevier, USA</p>
+        <p>
+          Anita is VP of Research Collaborations, where her work focuses on working with academic and industry partners
+          on projects pertaining to progressing modes and frameworks for scholarly communication. Since 1997, she has
+          worked on bridging the gap between science publishing and computational and information technologies,
+          collaborating with groups in Europe and the US. From 2006 onwards, de Waard has been working on a discourse
+          analysis of scientific narrative, with an emphasis on finding key epistemic components in biological text and
+          within that scope, helped start the TAC SciSumm workshops in 2013. She is a cofounder of Force11 and cofounder
+          of the Research Data Alliance's group on data retrieval technologies.
+        </p>
 
       </div>
     </div>
 
-    
-
-    <div class="container marketing navbar-spacing">
+    <hr class="featurette-divider">
 
 
-
-      <div class="row">
-        <div class="col-md-8">
-
-          <h2 class="featurette-heading">CLSciSumm <span class="text-muted"></span></h2>
-           <!--<p class="lead">
-            TBA
-          </p>-->
-          
-          <p>
-            
-          </p>
-          <p>
-            CL-SciSumm is the first medium-scale (over 500annotated documents as of today) shared task onscientific  document  summarization  in  the  com-putational   linguistics   domain.The6thCL-SciSumm2follows up on the successful previouseditions conducted as a part of the BIRNDL work-shops since 2016 and as a Pilot Task at the TextAnalysis  Conference  (TAC)  2014.   This  task  isexpected to be of interest to a broad community,including  those  working  in  CL  and  NLP,  espe-cially in the sub-disciplines of text summarization,scholarly discourse structure,  paraphrase,  textualentailment and text simplification.CL-SciSumm ’19 introduced large scale train-ing  datasets,  both  annotated  and  auto-annotatedwith  help  from  LILY  at  Yale  (Yasunaga  et  al.,2019).  CL-SciSumm ’19 had 17 registration andnine final system submissions.  The Shared Taskcomprises three sub-tasks, Tasks 1a, 1b and 2, inautomatic research paper summarization on a cor-pus of research papers. Systems are provided with a  Reference  Paper  (RP)  and  10  or  more  CitingPapers  (CPs)  that  all  contain  citations  to  the  RPwhich they use to find salient sentences from theRP to produce a summary of RP. This is evaluatedagainst abstract and human written summaries.CL-SciSumm ’20will  have  two  new  tracks.LaySumm-LongSumm- generating long summaries of sci-entific articles which require expertise in a scien-tific  domain.   To  this  end,  we  created  a  trainingset that consists of 1705 extractive summaries, and200 abstractive summaries of NLP and MachineLearning scientific papers.  These are drawn frompapers based on video talks from associated con-ferences (Lev et al., 2019) and from blogs createdby researchers in the NLP and ML communities.In addition, we created a test set of 30 abstractivesummaries. Each submission is judged against onereference  summary  (gold  summary)  and  should not exceed 600 words.
-          </p>
-
-          <h3 class="topics-header">Topics will include but will not be limited to:</h3>
-          
-          
-          
-          
-          <p>
-            
-          </p>
+    <!-- /END THE FEATURETTES -->
 
 
+    <!-- FOOTER -->
+    <footer>
+      <div style="width: 100%;overflow:auto;">
+        <div style="float:left; width: 50%">
 
-
-
+          <a name="contact"></a>
+          <!-- <p><b>Contact: Dasha Herrmannova</b>, herrmannovad "at" ornl.gov</p> -->
+          <!-- <p>&copy; 2020 Oak Ridge National Laboratory</p> -->
         </div>
 
-        <div class="col-md-3 col-md-offset-1">
-          <h2 class="featurette-heading"></h2> <!-- spacing to match main column -->
-          <h3>Important Links</h3>
-          
-          <p class="text-muted">
-            
-          </p>
-          <!--
-          <p>
-            <a href="http://www.acm.org/sigs/publications/proceedings-templates">Paper templates</a>
-            <br/>
-            <a href="https://www.easychair.org/conferences/?conf=mlhpc2019">Paper submission</a>
-          </p>
-	  -->
-
-          <div class="fine-print">
-            <p style="color:red;">
-              
-            </p>
-            <p class="text-muted">
-              
-            </p>
-
-            <p class="text-muted">
-              
-            </p>
-            
-            <p class="text-muted">
-            
-            </p>
-          </div>
-        </div>
-
-      </div>
-
-
-
-      <hr class="featurette-divider">
-
-
-      <!-- /END THE FEATURETTES -->
-
-
-      <!-- FOOTER -->
-      <footer>
-      	<div style="width: 100%;overflow:auto;">
-          <div style="float:left; width: 50%">
-
-            <a name="contact"></a>
-            <p><b>Contact:  Dasha Herrmannova</b>, herrmannovad "at" ornl.gov</p>
-            <p>&copy; 2020 Oak Ridge National Laboratory</p>
-          </div>
-          
-<!--           <div style="float:right;">
+        <!--           <div style="float:right;">
             <p>In cooperation with</p>
             <a class="brand" href="https://tc.computer.org/tchpc/"><img src="images/tchpc_logo_cmyk.png" alt="IEEE TCHPC"></a>
           </div> -->
-          
-        </div>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-      </footer>
 
-    </div><!-- /.container -->
+      </div>
+      <p class="pull-right"><a href="#">Back to top</a></p>
+    </footer>
+
+  </div><!-- /.container -->
 
 
-    <!-- Bootstrap core JavaScript
+  <!-- Bootstrap core JavaScript
     ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="./dist/js/bootstrap.min.js"></script>
-    <script src="./assets/js/docs.min.js"></script>
-  </body>
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="./dist/js/bootstrap.min.js"></script>
+  <script src="./assets/js/docs.min.js"></script>
+</body>
+
 </html>
