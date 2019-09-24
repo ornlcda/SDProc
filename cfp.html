@@ -5,16 +5,16 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+  <meta name="description" content="First Workshop on Scholarly Document Processing">
 
   <title>1st Workshop on Scholarly Document Processing</title>
 
   <!-- Bootstrap core CSS -->
   <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Just for debugging purposes. Don't actually copy this line! -->
+  <!-- Fira Sans font -->
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
+
   <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -24,17 +24,23 @@
     <![endif]-->
 
   <!-- Custom styles for this template -->
-  <link href="rrcf2014.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+
+  <!-- icons -->
+  <link rel="stylesheet" href="./font-awesome-4.1.0/css/font-awesome.min.css">
+
 </head>
-<!-- NAVBAR
-================================================== -->
 
 <body>
+
+  <!-- NAVBAR ================================================== -->
+
   <div class="navbar-wrapper">
     <div class="container">
-
       <div class="navbar navbar-inverse navbar-static-top" role="navigation">
         <div class="container">
+
+          <!-- MENU BUTTON FOR SMALL SCREENS + LOGO ================================ -->
 
           <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -43,58 +49,65 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="brand" href="index.html"> <img src="images/sdproc.png"
-                alt="First Workshop on Scholarly Document Processing"></a>
+            <div class="header-logo">
+              <span class="letter-highlight">S</span>cholarly
+              <span class="letter-highlight">D</span>ocument
+              <span class="letter-highlight">P</span>rocessing
+            </div>
           </div>
 
+          <!-- MENU OPTIONS ================================================== -->
+
           <div class="navbar-collapse collapse pull-right">
-              <ul class="nav navbar-nav">
-                <li><a href="index.html">Home</a></li>
-                <li class="active"><a href="cfp.html">Call for Papers</a></li>
-                <li><a href="previousworkshops.html">Previous Workshops</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">CL-SciSumm<b class="caret"></b></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="CLSciSumm.html">Call for Participation</a></li>
-                    <li><a href="CLSciSumm.html#laysumm">LaySumm</a></li>
-                    <li><a href="CLSciSumm.html#longsumm">LongSumm</a></li>
-                  </ul>
-                </li>
-                <!-- <li><a href="LaySumm.html">LaySumm</a></li> -->
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Program<b class="caret"></b></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="keynotespeakers.html">Keynotes</a></li>
-                    <!-- <li><a href="program.html">Program</a></li> -->
-                  </ul>
-                </li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Committees<b class="caret"></b></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="organizingcommittee.html">Organizing Committee</a></li>
-                    <li><a href="steeringcommittee.html">Steering Committee</a></li>
-                    <li><a href="programcommittee.html">Program Committee</a></li>
-                  </ul>
-                </li>
-                <li><a href="https://acl2020.org/">Venue</a></li>
-                <!-- <li><a href="#contact">Contact</a></li> -->
-              </ul>
-            </div>
+            <ul class="nav navbar-nav">
+              <li><a href="index.html">Home</a></li>
+              <li class="active"><a href="cfp.html">Call for Papers</a></li>
+              <li><a href="previousworkshops.html">Previous Workshops</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">CL-SciSumm<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="clscisumm.html">Call for Participation</a></li>
+                  <li><a href="clscisumm.html#laysumm">LaySumm</a></li>
+                  <li><a href="clscisumm.html#longsumm">LongSumm</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Program<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="keynotespeakers.html">Keynotes</a></li>
+                  <!-- <li><a href="program.html">Program</a></li> -->
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Committees<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="organizingcommittee.html">Organizing Committee</a></li>
+                  <li><a href="steeringcommittee.html">Steering Committee</a></li>
+                  <li><a href="programcommittee.html">Program Committee</a></li>
+                </ul>
+              </li>
+              <li><a href="https://acl2020.org/">Venue</a></li>
+            </ul>
+          </div>
+
+          <!-- MENU OPTIONS END ================================ -->
+
         </div>
       </div>
-
     </div>
   </div>
+
+  <!-- MAIN CONTENT ============================================= -->
 
   <div class="container marketing navbar-spacing">
 
     <div class="row">
       <div class="col-md-8">
 
-        <h2 class="featurette-heading">Call for <span class="text-muted">Papers</span></h2>
-        <!--<p class="lead">
-            TBA
-          </p>-->
+        <!-- CALL FOR PAPERS ============================================= -->
+
+        <h1>Call for <span class="text-muted">Papers</span></h1>
+
         <p>
           In addition to the long-standing challenge faced by scholars of keeping up with the growing literature in
           their own and related fields, they must now compete with malign pseudo-science and dis-information in
@@ -102,16 +115,19 @@
           retrieval, summarization, and analysis of scholarly documents. However, the general research community on
           scholarly document processing remains fragmented, and efforts towards natural language understanding of
           scholarly text that is central to vastly improve all the said downstream applications are not widespread. To
-          address these gaps, we, organizers of BIRNDL and WOSP workshops, propose the 1<sup>st</sup> Workshop on
-          Scholarly Document Processing. We seek to reach to the broader NLP and AI/ML community to pool the distributed
-          efforts to improve scholarly document understanding and enable intelligent access to the published research.
-          SDP will comprise a research track and the 6\textsuperscript{th} CL-SciSumm Shared Task with new tasks geared
-          towards easier access to scientific methods and results.
+          address these gaps, we, organizers of <a href="previousworkshops.html">BIRNDL and WOSP workshops</a>, propose
+          the 1<sup>st</sup> Workshop on Scholarly Document Processing. We seek to reach to the broader NLP and AI/ML
+          community to pool the distributed efforts to improve scholarly document understanding and enable intelligent
+          access to the published research. SDP will comprise a research track and the 
+          <a href="clscisumm.html">6<sup>th</sup> CL-SciSumm Shared Task</a> with new tasks geared towards easier 
+          access to scientific methods and results.
         </p>
+
         <p>
-          Over the past several years and at various venues, the Joint Workshop on Bibliometric-enhanced IR and NLP for
-          Digital Libraries (<b>BIRNDL</b>) and the <a href="https://wosp.core.ac.uk/">International Workshop on Mining
-            Scientific Publications</a> (<b>WOSP</b>) have established themselves as the principal venues for scholarly
+          Over the past several years and at various venues, the <a href="https://wing.comp.nus.edu.sg/~birndl2019/">Joint 
+            Workshop on Bibliometric-enhanced IR and NLP for Digital Libraries</a> (<b>BIRNDL</b>) and the 
+          <a href="https://wosp.core.ac.uk/">International Workshop on Mining Scientific Publications</a> 
+          (<b>WOSP</b>) have established themselves as the principal venues for scholarly
           document processing (SDP) research. Various research groups and various workshops have focused separately on
           different problems of and approaches to SDP. However, an integrated focus is past due. We believe that natural
           language processing is central to SDP, but that workshops at non-NLP venues have ignored its centrality. As
@@ -121,14 +137,16 @@
         <p>
           The goal of SDP is two fold: to increase collaboration between communities interested in leveraging knowledge
           stored in scientific literature and data and to establish SDP as the single focused primary venue for the
-          field. We expect this workshop to %enable faster hasten knowledge transfer, provide a common forum for
+          field. We expect this workshop to hasten knowledge transfer, provide a common forum for
           comparing different solutions to shared problems, and facilitate discussions converging towards solutions to
-          open problems in SDP. We seek to appeal to the mainstream NLP and ML community working on SDP tasks -- which
-          are NLP tasks -- to publish at SDP as we seek to establish SDP as the integrated premier venue. We have
+          open problems in SDP. We seek to appeal to the mainstream NLP and ML community working on SDP tasks &ndash; which
+          are NLP tasks &ndash; to publish at SDP as we seek to establish SDP as the integrated premier venue. We have
           established a steering committee to help us turn SDP into a conference in the forthcoming years.
         </p>
 
-        <h3>Topics of interest</h3>
+        <!-- TOPICS ============================================= -->
+
+        <h2>Topics of interest</h2>
 
         <p>
           The topics of interest to SDP are purposely designed to encompass all approaches to mining scholarly data, to
@@ -156,7 +174,9 @@
           Overall, the workshop looks forward to all novel research involved in the mining of scholarly artefacts.
         </p>
 
-        <h3>Submission information</h3>
+        <!-- SUBMISSION INFO ============================================= -->
+
+        <h2>Submission information</h2>
 
         <p>
           Authors are invited to submit short and full papers with unpublished, original work. Submissions will be
@@ -185,18 +205,17 @@
       </div>
 
       <div class="col-md-3 col-md-offset-1">
-        <h2 class="featurette-heading"></h2> <!-- spacing to match main column -->
-        <h3>Important Links</h3>
-        <a href="https://acl2020.org/calls/papers/#formatting-requirements">ACL 2020 formatting
-          requirements</a>
-        <p class="text-muted">
+        <h3>Links</h3>
+        <a href="https://acl2020.org/calls/papers/#formatting-requirements">
+          ACL 2020 formatting requirements
+        </a>
 
-          <h3>Important Dates</h3>
+        <h3>Important Dates</h3>
 
           <p>
             Submission deadline &ndash; TBA
           </p>
-          <!-- <p>
+          <p>
             Notification of Acceptance &ndash; TBA
           </p>
           <p>
@@ -204,45 +223,32 @@
           </p>
           <p>
             Workshop &ndash; TBA
-          </p> -->
+          </p>
       </div>
     </div>
 
+    <!-- FOOTER ========================================== -->
 
-    <hr class="featurette-divider">
+    <hr><br />
 
-
-    <!-- /END THE FEATURETTES -->
-
-
-    <!-- FOOTER -->
     <footer>
-      <div style="width: 100%;overflow:auto;">
-        <div style="float:left; width: 50%">
-
-          <a name="contact"></a>
-          <!-- <p><b>Contact: Dasha Herrmannova</b>, herrmannovad "at" ornl.gov</p> -->
+      <div class="footer-wrapper">
+        <div class="footer-left">
           <p>&copy; 2020 Oak Ridge National Laboratory</p>
         </div>
-
-        <!--           <div style="float:right;">
-            <p>In cooperation with</p>
-            <a class="brand" href="https://tc.computer.org/tchpc/"><img src="images/tchpc_logo_cmyk.png" alt="IEEE TCHPC"></a>
-          </div> -->
-
-      </div>
-      <p class="pull-right"><a href="#">Back to top</a></p>
+        <div class="footer-right">
+          <a href="#">Back to top</a>
+        </div>
     </footer>
 
-  </div><!-- /.container -->
+  </div>
 
+  <!-- Bootstrap core JavaScript ================================================== -->
 
-  <!-- Bootstrap core JavaScript
-    ================================================== -->
-  <!-- Placed at the end of the document so the pages load faster -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script src="./dist/js/bootstrap.min.js"></script>
   <script src="./assets/js/docs.min.js"></script>
+
 </body>
 
 </html>

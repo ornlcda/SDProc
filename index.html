@@ -5,16 +5,16 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+  <meta name="description" content="First Workshop on Scholarly Document Processing">
 
   <title>1st Workshop on Scholarly Document Processing</title>
 
   <!-- Bootstrap core CSS -->
   <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Just for debugging purposes. Don't actually copy this line! -->
+  <!-- Fira Sans font -->
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
+
   <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -24,21 +24,23 @@
     <![endif]-->
 
   <!-- Custom styles for this template -->
-  <link href="rrcf2014.css" rel="stylesheet">
-  <!-- <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"> -->
+  <link href="styles.css" rel="stylesheet">
+
+  <!-- icons -->
   <link rel="stylesheet" href="./font-awesome-4.1.0/css/font-awesome.min.css">
 
 </head>
-<!-- NAVBAR
-================================================== -->
 
 <body>
 
+  <!-- NAVBAR ================================================== -->
+
   <div class="navbar-wrapper">
     <div class="container">
-
       <div class="navbar navbar-inverse navbar-static-top" role="navigation">
         <div class="container">
+
+          <!-- MENU BUTTON FOR SMALL SCREENS + LOGO ================================ -->
 
           <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -47,9 +49,14 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="brand" href="index.html"> <img src="images/sdproc.png"
-                alt="First Workshop on Scholarly Document Processing"></a>
+            <div class="header-logo">
+              <span class="letter-highlight">S</span>cholarly
+              <span class="letter-highlight">D</span>ocument
+              <span class="letter-highlight">P</span>rocessing
+            </div>
           </div>
+
+          <!-- MENU OPTIONS ================================================== -->
 
           <div class="navbar-collapse collapse pull-right">
             <ul class="nav navbar-nav">
@@ -59,12 +66,11 @@
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">CL-SciSumm<b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                  <li><a href="CLSciSumm.html">Call for Participation</a></li>
-                  <li><a href="CLSciSumm.html#laysumm">LaySumm</a></li>
-                  <li><a href="CLSciSumm.html#longsumm">LongSumm</a></li>
+                  <li><a href="clscisumm.html">Call for Participation</a></li>
+                  <li><a href="clscisumm.html#laysumm">LaySumm</a></li>
+                  <li><a href="clscisumm.html#longsumm">LongSumm</a></li>
                 </ul>
               </li>
-              <!-- <li><a href="LaySumm.html">LaySumm</a></li> -->
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Program<b class="caret"></b></a>
                 <ul class="dropdown-menu">
@@ -81,18 +87,18 @@
                 </ul>
               </li>
               <li><a href="https://acl2020.org/">Venue</a></li>
-              <!-- <li><a href="#contact">Contact</a></li> -->
             </ul>
           </div>
+
+          <!-- MENU OPTIONS END ================================ -->
+
         </div>
       </div>
-
     </div>
   </div>
 
+  <!-- CAROUSEL ==================================================== -->
 
-  <!-- Carousel
-    ================================================== -->
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -101,12 +107,14 @@
     </ol>
     <div class="carousel-inner">
       <div class="item active">
-        <img class="img-responsive" src="images/library.jpeg" alt="MLHPC">
+        <img class="img-responsive" src="images/library.jpeg" alt="SDP">
         <div class="container">
           <div class="carousel-caption">
-            <h1>First Workshop on Scholarly Document Processing</h1>
-            <p>Accelerating scientific discovery, informing policy, and educating the public through machine
-              understanding of scientific knowledge.</p>
+            <div class="carousel-bg">
+              <h1>First Workshop on Scholarly Document Processing</h1>
+              <p>Accelerating scientific discovery, informing policy, and educating the public through machine
+                understanding of scientific knowledge</p>
+            </div>
             <p><a class="btn btn-lg btn-primary" href="#overview" role="button">Learn more</a></p>
           </div>
         </div>
@@ -115,147 +123,154 @@
         <img class="img-responsive" src="images/seattle.jpg" alt="Venue">
         <div class="container">
           <div class="carousel-caption">
-            <h1>Venue</h1>
-            <p>The workshop will be held in conjunction with 2020 Annual Conference of the Association for Computational
-              Linguistics</p>
+            <div class="carousel-bg">
+              <h1>Venue</h1>
+              <p>The workshop will be held in conjunction with 2020 Annual Conference of the Association for
+                Computational Linguistics</p>
+            </div>
             <p><a class="btn btn-lg btn-primary" href="https://acl2020.org/" role="button">Learn more</a></p>
           </div>
         </div>
       </div>
     </div>
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span
-        class="glyphicon glyphicon-chevron-left"></span></a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next"><span
-        class="glyphicon glyphicon-chevron-right"></span></a>
-  </div><!-- /.carousel -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+  </div>
 
-
-
-  <!-- Marketing messaging and featurettes
-    ================================================== -->
-  <!-- Wrap the rest of the page in another container to center all the content. -->
+  <!-- QUICK LINKS ============================================ -->
 
   <div class="container marketing">
 
-    <!-- Three columns of text below the carousel -->
     <div class="row">
       <div class="col-lg-4">
         <h2>CL-SciSumm 2020</h2>
-        <p>The 6<sup>th</sup> CL-SciSumm Shared Task contains new tasks geared towards easier access to scientific text.
+        <p>
+          The 6<sup>th</sup> CL-SciSumm Shared Task contains new tasks geared towards easier access to scientific text.
         </p>
-        <p><a class="btn btn-default" href="CLSciSumm.html" role="button">View details &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
-      <div class="col-lg-4">
-        <h2>Keynote Speakers</h2>
-        <p>Our keynote speakers will highlight significant research and challenges in scholarly document processing.</p>
-        <p><a class="btn btn-default" href="keynotespeakers.html" role="button">View details &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
+        <p>
+          <a class="btn btn-default" href="CLSciSumm.html" role="button">View details &raquo;</a>
+        </p>
+      </div>
       <div class="col-lg-4">
         <h2>Call for Papers</h2>
-        <p>Topics of interest, formatting instructions and link to submission system.</p>
-        <p><a class="btn btn-default" href="cfp.html" role="button">View details &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
-      <!-- <div class="col-lg-4">
-        <h2>Program</h2>
-        <p>This workshop will feature presentations on accepted papers along with keynote speakers.</p>
-        <p><a class="btn btn-default" href="program.html" role="button">View details &raquo;</a></p>
-      </div> -->
-    </div><!-- /.row -->
-
-
-    <!-- START THE FEATURETTES -->
-
-    <hr>
-
-    <a name="overview"></a>
-    <!-- first row -->
-    <div class="row featurette">
-      <div class="col-md-12">
-          <h1>Workshop <span class="text-muted">Overview</span></h1>
-        <p class="lead">In addition to the long-standing challenge faced by scholars of keeping up with the growing literature in
-            their own and related fields, they must now compete with malign pseudo-science and dis-information in
-            informing public policy and behavior. This has stimulated workshops and research focused on enhancing search,
-            retrieval, summarization, and analysis of scholarly documents. However, the general research community on
-            scholarly document processing remains fragmented, and efforts towards natural language understanding of
-            scholarly text that is central to vastly improve all the said downstream applications are not widespread. To
-            address these gaps, we, organizers of BIRNDL and WOSP workshops, propose the 1<sup>st</sup> Workshop on
-            Scholarly Document Processing. We seek to reach to the broader NLP and AI/ML community to pool the distributed
-            efforts to improve scholarly document understanding and enable intelligent access to the published research.
-            SDP will comprise a research track and the 6<sup>th</sup> CL-SciSumm Shared Task with new tasks geared
-            towards easier access to scientific methods and results.</p>
-      </div>
-      <!--
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive img-rounded" src="http://placehold.it/500x500" alt="generic photo">
-        </div>
-        -->
-    </div>
-
-    <hr class="featurette-divider">
-    <a name="important-dates"></a>
-    <!-- second row -->
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading">Important <span class="text-muted">Dates</span></h2>
-        <p class="lead">Mark your calendars for these dates!</p>
-      </div>
-      <div class="col-md-5">
-        <!--  <p> TBD</p> -->
-
-        <!--  <p>
-		  	<font color="red">Updated July 31, 2019. There will be no further deadline extension for submissions.</font>
-		  </p> 	  -->
-        <p class="lead">
-          <i class="fa fa-file-text-o"></i>&nbsp;&nbsp;&nbsp;
-          <!--<strike>-->TBA
-          <!--</strike><font color="red">September 1, 2019</font>--><br> Submission of workshop papers<br><br>
-          <i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;TBA<br> Notification of paper acceptance<br><br>
-          <i class="fa fa-camera"></i>&nbsp;&nbsp;&nbsp;TBA<br> Camera-ready submission of accepted papers<br><br>
-          <i class="fa fa-calendar"></i>&nbsp;&nbsp;&nbsp;TBA<br> Workshop<br><br>
+        <p>
+          Topics of interest, formatting instructions and link to submission system.
+        </p>
+        <p>
+          <a class="btn btn-default" href="cfp.html" role="button">View details &raquo;</a>
         </p>
       </div>
-
+      <div class="col-lg-4">
+        <h2>Keynote Speakers</h2>
+        <p>
+          Our keynote speakers will highlight significant research and challenges in scholarly document processing.
+        </p>
+        <p>
+          <a class="btn btn-default" href="keynotespeakers.html" role="button">View details &raquo;</a>
+        </p>
+      </div>
     </div>
+
+    <!-- WORKSHOP OVERVIEW ======================================== -->
 
     <hr class="featurette-divider">
 
-    <!-- /END THE FEATURETTES -->
-
-
-    <!-- FOOTER -->
-    <footer>
-      <div style="width: 100%;overflow:auto;">
-        <div style="float:left; width: 50%">
-
-          <a name="contact"></a>
-          <!-- <p><b>Contact: Dasha Herrmannova</b>, herrmannovad "at" ornl.gov</p> -->
-          <p>&copy; 2020 Oak Ridge National Laboratory</p>
-          <p><a href="https://www.pexels.com/photo/library-university-books-students-12064/">Photo of Library Room by
-              Tamas Meszaros (Free to use)</a>
-            <p>
-              <p><a href="https://commons.wikimedia.org/wiki/File:Seattle_Kerry_Park_Skyline.jpg">Photo of Seattle
-                  skyline from Kerry Park (Creative Commons CC0 1.0)</a>
-                <p>
-        </div>
-
-        <!--           <div style="float:right;">
-            <p>In cooperation with</p>
-            <a class="brand" href="https://tc.computer.org/tchpc/"><img src="images/tchpc_logo_cmyk.png" alt="IEEE TCHPC"></a>
-          </div> -->
-
+    <a name="overview"></a>
+    <div class="row featurette">
+      <div class="col-md-12">
+        <h1>Workshop <span class="text-muted">Overview</span></h1>
+        <p class="lead">
+          In addition to the long-standing challenge faced by scholars of keeping up with the growing literature in
+          their own and related fields, they must now compete with malign pseudo-science and dis-information in
+          informing public policy and behavior. This has stimulated workshops and research focused on enhancing search,
+          retrieval, summarization, and analysis of scholarly documents. However, the general research community on
+          scholarly document processing remains fragmented, and efforts towards natural language understanding of
+          scholarly text that is central to vastly improve all the said downstream applications are not widespread.
+        </p>
+        <p class="lead">
+          To address these gaps, we, organizers of <a href="previousworkshops.html">BIRNDL and WOSP workshops</a>,
+          propose the 1<sup>st</sup> Workshop on Scholarly Document Processing. We seek to reach to the broader NLP and
+          AI/ML community to pool the distributed efforts to improve scholarly document understanding and enable
+          intelligent access to the published research. SDP will comprise a research track and the <a
+            href="clscisumm.html">6<sup>th</sup> CL-SciSumm Shared Task</a> with new tasks geared towards easier access
+          to scientific methods and results.</p>
+        </p>
       </div>
-      <p class="pull-right" style="float: right"><a href="#">Back to top</a></p>
+    </div>
+
+    <!-- IMPORTANT DATES ========================================== -->
+
+    <hr class="featurette-divider">
+
+    <a name="important-dates"></a>
+    <div class="row featurette">
+
+      <div class="col-md-12">
+        <h1>Important <span class="text-muted">Dates</span></h1>
+        <p class="lead program">Mark your calendars for these dates!</p>
+        <table class="program-table">
+          <tr>
+            <td><i class="fa fa-file-text-o"></i></td>
+            <td>Submission deadline</td>
+            <td>TBA</td>
+          </tr>
+          <tr>
+            <td><i class="fa fa-thumbs-o-up"></i></td>
+            <td>Notification of paper acceptance</td>
+            <td>TBA</td>
+          </tr>
+          <tr>
+            <td><i class="fa fa-camera"></i></td>
+            <td>Camera-ready submission of accepted papers</td>
+            <td>TBA</td>
+          </tr>
+          <tr>
+            <td><i class="fa fa-calendar"></i></td>
+            <td>Workshop</td>
+            <td>TBA</td>
+          </tr>
+        </table>
+      </div>
+
+    </div>
+
+    <!-- FOOTER ========================================== -->
+
+    <hr><br />
+
+    <footer>
+      <div class="footer-wrapper">
+        <div class="footer-left">
+          <p>&copy; 2020 Oak Ridge National Laboratory</p>
+          <p>
+            <a href="https://www.pexels.com/photo/library-university-books-students-12064/">
+              Photo of Library Room by Tamas Meszaros (Free to use)
+            </a>
+          </p>
+          <p>
+            <a href="https://commons.wikimedia.org/wiki/File:Seattle_Kerry_Park_Skyline.jpg">
+              Photo of Seattle skyline from Kerry Park (Creative Commons CC0 1.0)
+            </a>
+          </p>
+        </div>
+        <div class="footer-right">
+          <a href="#">Back to top</a>
+        </div>
+      </div>
     </footer>
 
-  </div><!-- /.container -->
+  </div>
 
+  <!-- Bootstrap core JavaScript ================================================== -->
 
-  <!-- Bootstrap core JavaScript
-    ================================================== -->
-  <!-- Placed at the end of the document so the pages load faster -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script src="./dist/js/bootstrap.min.js"></script>
   <script src="./assets/js/docs.min.js"></script>
+
 </body>
 
 </html>
