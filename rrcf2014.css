@@ -209,3 +209,23 @@ a.brand img {
 p.lead {
   font-size: 20px;
 }
+
+ol.programme-committee {
+  /* padding-left: 25px; */
+  list-style-position: inside;
+  padding-left: 0px;
+}
+
+ol.programme-committee li {
+  position: relative;
+  font-size: 24px;
+}
+
+ol.programme-committee li h3 {
+  position: relative;
+  display: inline-block;
+}
+
+ol.programme-committee p.lead {
+  /* margin-left: -25px; */
+}
