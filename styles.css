@@ -123,6 +123,8 @@ a.brand img {
 .featurette-image {
     width: 200px;
     margin: auto;
+    float: right;
+    vertical-align: middle;
 }
 
 /* Site Specific
@@ -212,11 +214,11 @@ ol.programme-committee {
   /* padding-left: 25px; */
   list-style-position: inside;
   padding-left: 0px;
+  margin-top: 30px;
 }
 
 ol.programme-committee li {
   position: relative;
-  font-size: 24px;
 }
 
 ol.programme-committee li h3 {
@@ -278,7 +280,7 @@ ol.programme-committee li h3 {
   text-align: right;
 }
 
-p, ul {
+p, ul, ol {
   font-size: 11pt;
 }
 
