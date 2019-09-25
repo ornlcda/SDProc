@@ -281,3 +281,7 @@ ol.programme-committee li h3 {
 p {
   font-size: 11pt;
 }
+
+a.header-logo-link{
+  text-decoration: none;
+}
