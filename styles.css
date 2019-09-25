@@ -278,7 +278,7 @@ ol.programme-committee li h3 {
   text-align: right;
 }
 
-p {
+p, ul {
   font-size: 11pt;
 }
 
