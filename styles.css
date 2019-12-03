@@ -272,6 +272,15 @@ ol.programme-committee li h3 {
   font-size: 20px;
 }
 
+.program-table .date-column {
+  padding-left: 30px;
+  text-align: right;
+}
+
+.program-table .icon-column {
+  max-width: 25px;
+}
+
 .footer-wrapper {
   width: 100%;
 }
