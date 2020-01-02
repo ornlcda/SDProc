@@ -249,7 +249,7 @@ ol.programme-committee li h3 {
 }
 
 .carousel-bg {
-  background-color: RGBA(0, 0, 0, 0.3);
+  background-color: RGBA(0, 0, 0, 0.5);
   border-radius: 20px;
   padding-right: 5px;
   padding-left: 5px;
@@ -300,6 +300,6 @@ p, ul, ol {
   font-size: 11pt;
 }
 
-a.header-logo-link{
+a.header-logo-link {
   text-decoration: none;
 }
