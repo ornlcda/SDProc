@@ -130,9 +130,9 @@
 
         <!-- TASKS ======================================================== -->
 
-        <h2>Tasks</h2>
+        <!-- <h2>Tasks</h2> -->
 
-        <h3 id="clscisumm">CL-SciSumm</h3>
+        <h2 id="clscisumm">CL-SciSumm</h2>
 
         <h4>Given</h4>
 
@@ -171,34 +171,93 @@
           asbtract of the reference paper.
         </p>
 
-        <h3 id="laysumm">LaySumm</h3>
+        <hr class="featurette-divider">
+
+        <h2 id="laysumm">CL-LaySumm: The 1<sup>st</sup> Computational Linguistics Lay Summary Challenge Shared Task</h2>
 
         <p>
           To ensure and increase the relevance of science for all of society and not just a small group of niche
           practitioners, researchers have been increasingly tasked by funders and publishers to outline the scope of
           their research for a general public by writing a summary for a lay audience, or lay summary. The LaySumm
           summarization task considers automating this responsibility, by enabling systems to automatically generate lay
-          summaries. A lay summary explains, succinctly and without using technical jargon, what the overall scope, goal
-          and potential impact of a scientific paper is.
+          summaries. 
+          <!-- A lay summary explains, succinctly and without using technical jargon, what the overall scope, goal and potential impact of a scientific paper is. -->
         </p>
 
-        <p>
+        <!-- <p>
           The corpus for this task will comprise full-text papers with lay summaries, in a variety of domains, and from
           a number of journals. Elsevier will make a collection of about 500 Lay Summaries available from a collection of journals, as well as the abstracts and full text of these journals.
+        </p> -->
+        <p>
+          The CL-LaySumm Shared Task is to automatically produce Lay Summaries of technical (scientific research article) texts. A Lay Summary is defined as a textual summary intended for a non-technical audience. It is typically produced either by the authors or by a journalist or commentator. Examples are provided in the training data. The corpus will cover three distinct domains: epilepsy, archeology, and materials engineering.
         </p>
 
-        <p>
+        <!-- <p>
           The Task will be to generate summaries that are representative of the content, comprehensible, and interesting
           to a lay audience. The intrinsic evaluation will be done by ROUGE. In addition, a subset of randomly selected
           summaries will undergo human evaluation by science journalists and communicators for comprehensiveness,
           legibility and interest.
+        </p> -->
+        <p>
+          In more detail, a lay summary explains, succinctly and without using technical jargon, what the overall scope, goal and potential impact of a scientific paper is. It is typically about 70 - 100 words in length. The task is to generate summaries that are representative of the content, comprehensible, and interesting to a lay audience.
         </p>
 
         <p>
-          All nominated entries will be invited to publish a paper in Open Access (Author-Payment Charges will be
-          waived) in a selected Elsevier publication. Authors will be asked to provide an automatically generated lay
-          summary of their paper, together with their contribution.
+          The intrinsic evaluation will be done by ROUGE, using ROUGE-1, -2, and Skipgram metrics. In addition, a randomly selected subset of the summaries will undergo human evaluation by science journalists and communicators for comprehensiveness, legibility, and interest.
         </p>
+
+        <p>
+          All nominated entries will be invited to publish a paper in Open Access (Author-Payment Charges will be waived) in a selected Elsevier publication. Authors will be asked to provide an automatically generated lay summary of their paper, together with their contribution.
+        </p>
+
+        <h3>Lay Summary Task</h3>
+
+        <p>
+          The task is defined as follows:
+        </p>
+
+        <ul>
+          <li>
+            <strong>Given:</strong> A full-text paper, its Abstract, and a Lay Summary of a given paper
+          </li>
+          <li>
+            <strong>Task:</strong> For each paper, generate a Lay Summary of the specified length
+          </li>
+          <li>
+            <strong>Evaluation:</strong> The Lay Summary Task will be scored by using several ROUGE metrics to compare the system output and the gold standard Lay Summary.
+          </li>
+        </ul>
+
+        <p>
+          As a follow-up to the intrinsic evaluation, we will crowdsource a number of automatically generated lay summaries to a panel of judges and a lay audience. Details of the crowdsourcing evaluation will be announced with the sharing of the final test corpus on July 1<sup>st</sup>.
+        </p>
+
+        <h3>Corpus</h3>
+
+        <p>
+          For a small sample dataset, see the task <a href="https://github.com/WING-NUS/scisumm-corpus/blob/master/README_Laysumm.md#sample-dataset">GitHub repository</a>. To obtain access to full the LaySumm (training and test) corpus, please send an email to <a href="mailto:a.dewaard@elsevier.com">a.dewaard@elsevier.com</a>. You will be emailed and asked to sign a contract that grants you research access to the full corpus of approximately 600 full-text articles, abstracts and lay summaries. A training corpus consisting of approximately 2/3 of the corpus will be made available directly; the full corpus will be available on the Test Set Release date, July 1, 2020.
+        </p>
+
+        <p>
+          For any questions on the contracts or the corpus, please contact <a href="mailto:a.dewaard@elsevier.com">a.dewaard@elsevier.com</a>.
+        </p>
+
+        <h3>Organizers' Contacts</h3>
+
+        <p>
+          For further information about this data release, contact the following members of the SDP 2020 workshop organizing committee:
+        </p>
+
+        <ul>
+          <li>
+            Anita de Waard (Elsevier, VT), <a href="mailto:a.dewaard@elsevier.com">a.dewaard@elsevier.com</a>
+          </li>
+          <li>
+            Eduard Hovy (LTI, CMU), <a href="mailto:hovy@cmu.edu">hovy@cmu.edu</a>
+          </li>
+        </ul>
+
+        <hr class="featurette-divider">
 
         <h3 id="longsumm">LongSumm</h3>
 
