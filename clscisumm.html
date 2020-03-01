@@ -110,10 +110,45 @@
 
         <!-- CFP INTRODUCTION ================================================== -->
 
-        <h1>The 6<sup>th</sup> Computational Linguistics Scientific Document Summarization Shared
-          Task (CL-SciSumm 2020)</h1>
+        <!-- <h1>The 6<sup>th</sup> Computational Linguistics Scientific Document Summarization Shared
+          Task (CL-SciSumm 2020)</h1> -->
 
-        <h2>Call for Participation</h2>
+        <h1>Shared Tasks: Call for Participation</h1>
+
+        <p>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScfHzByrog-k299qBuCp3SbPWcb905_kmOWMvHpDH57VLpVrg/viewform"><button type="button" class="btn btn-primary">Shared Tasks Registration</button></a>
+        </p>
+
+        <hr class="featurette-divider">
+
+        <h2>Navigation</h2>
+
+        <ul>
+          <li>
+            <a href="#clscisumm">CL-SciSumm 2020</a>
+          </li>
+          <li>
+            <a href="#laysumm">CL-LaySumm 2020</a>
+          </li>
+          <li>
+            <a href="#longsumm">LongSumm 2020</a>
+          </li>
+          <li>
+            <a href="#register">Registration</a>
+          </li>
+          <li>
+            <a href="#dates">Important Dates</a>
+          </li>
+          <li>
+            <a href="#organizers">Organizing Committee</a>
+          </li>
+        </ul>
+
+        <hr class="featurette-divider">
+
+        <!-- CL-SciSumm ======================================================== -->
+
+        <h2 id="clscisumm">CL-SciSumm 2020: The 6<sup>th</sup> Computational Linguistics Scientific Document Summarization Shared Task</h2>
 
         <p>
           CL-SciSumm is the first medium-scale shared task on scientific document summarization, with over 500 annotated
@@ -126,41 +161,26 @@
               href="#longsumm">LongSumm</a></b>.
         </p>
 
-        <hr class="featurette-divider">
-
-        <!-- TASKS ======================================================== -->
-
-        <!-- <h2>Tasks</h2> -->
-
-        <h2 id="clscisumm">CL-SciSumm</h2>
-
-        <h4>Given</h4>
+        <h3>CL-SciSumm Task</h3>
 
         <p>
-          A topic consisting of a Reference Paper (RP) and Citing Papers (CPs) that all contain citations to the RP. In
-          each CP, the text spans (i.e., citances) have been identified that pertain to a particular citation to the RP.
+          The task is defined as follows:
         </p>
 
-        <h4>Task 1A</h4>
-
-        <p>
-          For each citance, identify the spans of text (cited text spans) in the RP that most accurately reflect the
-          citance. These are of the granularity of a sentence fragment, a full sentence, or several consecutive
-          sentences (no more than 5).
-        </p>
-
-        <h4>Task 1B</h4>
-
-        <p>
-          For each cited text span, identify what facet of the paper it belongs to, from a predefined set of facets.
-        </p>
-
-        <h4>Task 2 (optional bonus task)</h4>
-
-        <p>
-          Finally, generate a structured summary of the RP from the cited text spans of the RP. The length of the
-          summary should not exceed 250 words.
-        </p>
+        <ul>
+          <li>
+            <strong>Given:</strong> A topic consisting of a Reference Paper (RP) and Citing Papers (CPs) that all contain citations to the RP. In each CP, the text spans (i.e., citances) have been identified that pertain to a particular citation to the RP.
+          </li>
+          <li>
+            <strong>Task 1A:</strong> For each citance, identify the spans of text (cited text spans) in the RP that most accurately reflect the citance. These are of the granularity of a sentence fragment, a full sentence, or several consecutive sentences (no more than 5).
+          </li>
+          <li>
+            <strong>Task 1B:</strong> For each cited text span, identify what facet of the paper it belongs to, from a predefined set of facets.
+          </li>
+          <li>
+            <strong>Task 2 (optional bonus task):</strong> Finally, generate a structured summary of the RP from the cited text spans of the RP. The length of the summary should not exceed 250 words.
+          </li>
+        </ul>
 
         <h4>Evaluation</h4>
 
@@ -171,9 +191,33 @@
           asbtract of the reference paper.
         </p>
 
+        <h3>Corpus</h3>
+
+        <p>
+          The training and test sets from previous years can be downloaded from <a
+            href="https://github.com/WING-NUS/scisumm-corpus">GitHub</a>.
+        </p>
+
+        <h3>Contact</h3>
+
+        <p>
+          For further information about this data release, contact the following members of the SDP 2020 workshop organizing committee:
+        </p>
+
+        <ul>
+          <li>
+            Anita de Waard (Elsevier, VT), <a href="mailto:a.dewaard@elsevier.com">a.dewaard@elsevier.com</a>
+          </li>
+          <li>
+            Eduard Hovy (LTI, CMU), <a href="mailto:hovy@cmu.edu">hovy@cmu.edu</a>
+          </li>
+        </ul>
+
         <hr class="featurette-divider">
 
-        <h2 id="laysumm">CL-LaySumm: The 1<sup>st</sup> Computational Linguistics Lay Summary Challenge Shared Task</h2>
+        <!-- LaySumm ========================================================= -->
+
+        <h2 id="laysumm">CL-LaySumm 2020: The 1<sup>st</sup> Computational Linguistics Lay Summary Challenge Shared Task</h2>
 
         <p>
           To ensure and increase the relevance of science for all of society and not just a small group of niche
@@ -223,13 +267,12 @@
           <li>
             <strong>Task:</strong> For each paper, generate a Lay Summary of the specified length
           </li>
-          <li>
-            <strong>Evaluation:</strong> The Lay Summary Task will be scored by using several ROUGE metrics to compare the system output and the gold standard Lay Summary.
-          </li>
         </ul>
 
+        <h4>Evaluation</h4>
+
         <p>
-          As a follow-up to the intrinsic evaluation, we will crowdsource a number of automatically generated lay summaries to a panel of judges and a lay audience. Details of the crowdsourcing evaluation will be announced with the sharing of the final test corpus on July 1<sup>st</sup>.
+          The Lay Summary Task will be scored by using several ROUGE metrics to compare the system output and the gold standard Lay Summary. As a follow-up to the intrinsic evaluation, we will crowdsource a number of automatically generated lay summaries to a panel of judges and a lay audience. Details of the crowdsourcing evaluation will be announced with the sharing of the final test corpus on July 1<sup>st</sup>.
         </p>
 
         <h3>Corpus</h3>
@@ -242,7 +285,7 @@
           For any questions on the contracts or the corpus, please contact <a href="mailto:a.dewaard@elsevier.com">a.dewaard@elsevier.com</a>.
         </p>
 
-        <h3>Organizers' Contacts</h3>
+        <h3>Contact</h3>
 
         <p>
           For further information about this data release, contact the following members of the SDP 2020 workshop organizing committee:
@@ -259,33 +302,92 @@
 
         <hr class="featurette-divider">
 
-        <h3 id="longsumm">LongSumm</h3>
+        <!-- LongSumm ========================================================= -->
 
-        <p>
+        <h2 id="longsumm">LongSumm 2020: Shared Task on Generating Long Summaries for Scientific Documents</h2>
+
+        <!-- <p>
           The LongSumm Task focuses on generating long summaries of scientific articles which require expertise in a
           scientific domain. To this end, we created a training set that consists of 1705 extractive summaries, and 200
           abstractive summaries of NLP and Machine Learning scientific papers. These are drawn from papers based on
           video talks from associated conferences (TalkSumm) and from blogs created by NLP and ML researchers. In
           addition, we create a test set of 30 abstractive summaries. Each submission is judged against one reference
           summary (gold summary) on ROUGE and should not exceed 600 words.
+        </p> -->
+
+        <p>
+          Most of the work on scientific document summarization focuses on generating relatively short summaries (abstract like). While such a length constraint can be sufficient for summarizing news articles, it is far from sufficient for summarizing scientific work. In fact, such a short summary resembles more to an abstract than to a summary that aims to cover all the salient information conveyed in a given text. Writing such summaries requires expertise and a deep understanding in a scientific domain, as can be found in some researchers blogs.
         </p>
+
+        <p>
+          The LongSumm task opted to leverage blogs created by researchers in the NLP and Machine learning communities and use these summaries as reference summaries to compare the submissions against.
+        </p>
+
+        <p>
+          The corpus for this task includes a training set that consists of 1,705 extractive summaries, and around 700 abstractive summaries of NLP and Machine Learning scientific papers. These are drawn from papers based on video talks from associated conferences (<a href="https://arxiv.org/abs/1906.01351">Lev et al. 2019 TalkSumm</a>) and from blogs created by NLP and ML researchers. In addition, we create a test set of abstractive summaries. Each submission is judged against one reference summary (gold summary) on ROUGE and should not exceed 600 words.
+        </p>
+
+        <h3>Long Summary Task</h3>
+
+        <p>
+          The task is defined as follows:
+        </p>
+
+        <ul>
+          <li>
+            <strong>Given:</strong> For a detailed description of the provided data, please see the <a href="https://github.com/guyfe/LongSumm#training-data">LongSumm GitHub repository</a>
+          </li>
+          <li>
+            <strong>Task:</strong> Generate abstractive and extractive summaries for scientific papers
+          </li>
+        </ul>
+
+        <h4>Evaluation</h4>
+
+        <p>
+          The Lay Summary Task will be scored by using several ROUGE metrics to compare the system output and the gold standard Lay Summary. The intrinsic evaluation will be done by ROUGE, using ROUGE-1, -2, -L and Skipgram metrics. In addition, a randomly selected subset of the summaries will undergo human evaluation.
+        </p>
+
+        <h3>Corpus</h3>
+
+        <p>
+          The training data is composed of abstractive and extractive summaries. To download both datasets, and for further details, see the <a href="https://github.com/guyfe/LongSumm#training-data">LongSumm GitHub repository</a>.
+        </p>
+
+        <p>
+          The (blind) test dataset will be released on July 1, 2020.
+        </p>
+
+        <h3>Contact</h3>
+
+        <p>
+          For further information about this dataset please contact the organizers of the shared task:
+        </p>
+
+        <ul>
+          <li>
+            <a href="https://researcher.watson.ibm.com/researcher/view.php?person=il-SHMUELI">Michal Shmueli-Scheuer - IBM Research AI</a>
+          </li>
+          <li>
+            <a href="https://researcher.watson.ibm.com/researcher/view.php?person=il-GUYF">Guy Feigenblat - IBM Research AI</a>
+          </li>
+        </ul>
 
         <hr class="featurette-divider">
 
-        <!-- CORPUS ================================================================== -->
+        <!-- IMPORTANT DATES ========================================================= -->
 
-        <h2>Corpus</h2>
+        <h2 id="register">Registration</h2>
 
         <p>
-          The training and test sets from previous years can be downloaded from <a
-            href="https://github.com/WING-NUS/scisumm-corpus">GitHub</a>.
+          To register for participation in the shared tasks, please use <a href="https://docs.google.com/forms/d/e/1FAIpQLScfHzByrog-k299qBuCp3SbPWcb905_kmOWMvHpDH57VLpVrg/viewform">this registration form</a>.
         </p>
 
         <hr class="featurette-divider">
 
         <!-- IMPORTANT DATES ========================================================= -->
 
-        <h2>Important Dates</h2>
+        <h2 id="dates">Important Dates</h2>
 
         <p>
           Please consult the <a href="index.html">SDP Workshop website</a> for official dates for the workshop.
@@ -334,7 +436,7 @@
 
         <!-- ORGANIZERS ================================================================= -->
 
-        <h2>Organizing Committee</h2>
+        <h2 id="organizers">Organizing Committee</h2>
 
         <h3 class="featurette-name-heading"><a href="https://www.linkedin.com/in/muthukumarc87/">Muthu Kumar
             Chandrasekaran</a></h3>
