@@ -64,8 +64,19 @@
           <div class="navbar-collapse collapse pull-right">
             <ul class="nav navbar-nav">
               <li><a href="index.html">Home</a></li>
-              <li class="active"><a href="cfp.html">Call for Papers</a></li>
-              <li><a href="previousworkshops.html">Previous Workshops</a></li>
+              <li class="dropdown active">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Call for Papers<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="cfp.html">Call for Papers</a></li>
+                  <li><a href="cfp.html#topics">Topics of Interest</a></li>
+                  <li><a href="cfp.html#sharedtasks">Shared Tasks</a></li>
+                  <li><a href="cfp.html#submission">Submission Information</a></li>
+                  <li><a href="cfp.html#dates">Important Dates</a></li>
+                  <li><a href="cfp.html#journal">Journal Extension</a></li>
+                  <li><a href="cfp.html#keynotes">Keynote Speakers</a></li>
+                  <li><a href="cfp.html#committees">Committees</a></li>
+                </ul>
+              </li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Shared Tasks<b class="caret"></b></a>
                 <ul class="dropdown-menu">
@@ -94,6 +105,7 @@
                   <li><a href="contact.html">Contact Us</a></li>
                 </ul>
               </li>
+              <li><a href="previousworkshops.html">Previous Workshops</a></li>
               <li><a href="https://2020.emnlp.org/">Venue</a></li>
             </ul>
           </div>
@@ -113,73 +125,84 @@
       <div class="col-md-8">
 
         <!-- CALL FOR PAPERS ============================================= -->
-         <h1>Call for Papers</h1>
-        <p>You are invited to participate in the 1st Workshop on Scholarly Document Processing (SDP 2020) to be held 
-          in conjunction with the 2020 Conference in Empirical Methods in Natural Language Processing (EMNLP 2020) 
-          on November 11 or 12 in Punta Cana, Dominican Republic. </p>
+
+        <h1>Call for Papers</h1>
+        <p>
+          You are invited to participate in the 1st Workshop on Scholarly Document Processing (SDP 2020) to be held
+          in conjunction with the <a href="https://2020.emnlp.org/">2020 Conference in Empirical Methods in Natural Language Processing</a> 
+          (EMNLP 2020) on November 11 or 12 in Punta Cana, Dominican Republic.
+        </p>
           
-          <p> The workshop will consist of a research track and 
-          a shared task track. The shared task track includes the  
-          <a href="https://github.com/WING-NUS/scisumm-corpus"> 6th edition of the CL-SciSumm shared task</a> and 
-          two new summarization tasks -- CL-LaySumm and LongSumm -- geared 
-          towards easier access to scientific methods and results. </p>
-          
-           <p>The tentative submission deadline is July 15, 2020.</p>
-          
-           <p> SDP is a continuation of the <a href="https://philippmayr.github.io/BIRNDL-WS/">BIRNDL</a> 
-             and the <a href="https://wosp.core.ac.uk/">WOSP</a> workshop series. </p>
-        <h1>Introduction</h1>
-        <p>In addition to the long-standing challenge faced by scholars of keeping up with the growing literature in their own and related fields, they must now compete with malign pseudo-science and dis-information in informing public policy and behavior. This has stimulated workshops and research focused on enhancing search, retrieval, summarization, and analysis of scholarly documents. However, the general research community on scholarly document processing remains fragmented, and efforts towards natural language understanding of scholarly text that is central to vastly improve all the said downstream applications are not widespread. </p>
-        <p>To address these gaps, we, the organizers of BIRNDL and WOSP workshops, propose the first Workshop on Scholarly Document Processing. We seek to reach to the broader NLP and AI/ML community to pool the distributed efforts to improve scholarly document understanding and enable intelligent access to the published research. The goal of SDP is two-fold: to increase collaboration between communities interested in leveraging knowledge stored in scientific literature and data and to establish SDP as the single-focused 
-          primary venue for the field.</p>
-        <p>We seek to appeal to the mainstream NLP and ML community working on SDP tasks – which are NLP tasks – to publish at SDP as we seek to establish SDP as the integrated premier venue. We have established a steering committee to help us turn SDP into a conference in the forthcoming years.</p>
-        <!-- p>We seek to appeal to the mainstream NLP and ML community working on SDP tasks – which are NLP tasks – to publish at SDP as we seek to establish SDP as the integrated premier venue. We have established a steering committee to help us turn SDP into a conference in the forthcoming years.</p>
+        <p>
+          The workshop will consist of a research track and a shared task track.
+        </p>
         
-        <!-- p>To address these gaps, we, <a href="previousworkshops.html">the previous organizers of BIRNDL and WOSP workshops</a>, propose the first Workshop on Scholarly Document Processing. We seek to reach to the broader NLP and AI/ML community to pool the distributed efforts to improve scholarly document understanding and enable intelligent access to the published research. SDP will comprise a research track and a <a href="sharedtasks.html">shared task track</a>, consisting of the <a href="sharedtasks.html#clscisumm">6th CL-SciSumm Shared Task</a> and two  with new tasks geared towards easier access to scientific methods and results -- <a href="sharedtasks.html#laysumm">LaySumm</a> and <a href="sharedtasks.html#longsumm">LongSumm</a>. The goal of SDP is two-fold: to increase collaboration between communities interested in leveraging knowledge stored in scientific literature and data and to establish SDP as the single focused primary venue for the field.</p>
-
-        <!-- <p>
-          In addition to the long-standing challenge faced by scholars of keeping up with the growing literature in
-          their own and related fields, they must now compete with malign pseudo-science and dis-information in
-          informing public policy and behavior. This has stimulated workshops and research focused on enhancing search,
-          retrieval, summarization, and analysis of scholarly documents. However, the general research community on
-          scholarly document processing remains fragmented, and efforts towards natural language understanding of
-          scholarly text that is central to vastly improve all the said downstream applications are not widespread. To
-          address these gaps, we, organizers of <a href="previousworkshops.html">BIRNDL and WOSP workshops</a>, propose
-          the 1<sup>st</sup> Workshop on Scholarly Document Processing. We seek to reach to the broader NLP and AI/ML
-          community to pool the distributed efforts to improve scholarly document understanding and enable intelligent
-          access to the published research. SDP will comprise a research track and the
-          <a href="sharedtasks.html">6<sup>th</sup> CL-SciSumm Shared Task</a> with new tasks geared towards easier
-          access to scientific methods and results.
+        <p>
+          The shared task track includes the 
+          <a href="sharedtasks.html#clscisumm">6<sup>th</sup> edition of the CL-SciSumm shared task</a> and two new summarization 
+          tasks &ndash; <a href="sharedtasks.html#laysumm">CL-LaySumm</a> and <a href="sharedtasks.html#longsumm">LongSumm</a> &ndash; 
+          geared towards easier access to scientific methods and results.
+        </p>
+          
+        <p>
+          The tentative submission deadline is <strong>July 15, 2020</strong>.
+        </p>
+          
+        <p>
+          SDP is a continuation of the <a href="previousworkshops.html#birndl">BIRNDL</a> 
+          and the <a href="previousworkshops.html#wosp">WOSP</a> workshop series.
         </p>
 
-        <p>
-          Over the past several years and at various venues, the <a
-            href="https://wing.comp.nus.edu.sg/~birndl2019/">Joint
-            Workshop on Bibliometric-enhanced IR and NLP for Digital Libraries</a> (<b>BIRNDL</b>) and the
-          <a href="https://wosp.core.ac.uk/">International Workshop on Mining Scientific Publications</a>
-          (<b>WOSP</b>) have established themselves as the principal venues for scholarly
-          document processing (SDP) research. Various research groups and various workshops have focused separately on
-          different problems of and approaches to SDP. However, an integrated focus is past due. We believe that natural
-          language processing is central to SDP, but that workshops at non-NLP venues have ignored its centrality. As
-          such, we believe that SDP will be strengthened by being hosted at an ACL venue.
-        </p>
+        <h2>Navigation</h2>
 
+        <ul>
+          <li><a href="cfp.html#intro">Introduction</a></li>
+          <li><a href="cfp.html#topics">Topics of Interest</a></li>
+          <li><a href="cfp.html#sharedtasks">Shared Tasks</a></li>
+          <li><a href="cfp.html#submission">Submission Information</a></li>
+          <li><a href="cfp.html#dates">Important Dates</a></li>
+          <li><a href="cfp.html#journal">Journal Extension</a></li>
+          <li><a href="cfp.html#keynotes">Keynote Speakers</a></li>
+          <li><a href="cfp.html#committees">Committees</a></li>
+        </ul>
+        
+        <h2 id="intro">Introduction</h2>
+          
         <p>
-          The goal of SDP is two fold: to increase collaboration between communities interested in leveraging knowledge
-          stored in scientific literature and data and to establish SDP as the single focused primary venue for the
-          field. We expect this workshop to hasten knowledge transfer, provide a common forum for
-          comparing different solutions to shared problems, and facilitate discussions converging towards solutions to
-          open problems in SDP. We seek to appeal to the mainstream NLP and ML community working on SDP tasks &ndash;
-          which
-          are NLP tasks &ndash; to publish at SDP as we seek to establish SDP as the integrated premier venue. We have
-          established a steering committee to help us turn SDP into a conference in the forthcoming years.
-        </p> -->
+          In addition to the long-standing challenge faced by scholars of keeping up with the growing literature in their own
+          and related fields, they must now compete with malign pseudo-science and disinformation in informing public policy
+          and behavior. This has stimulated workshops and research focused on enhancing search, retrieval, summarization, and
+          analysis of scholarly documents. However, the general research community on scholarly document processing remains
+          fragmented, and efforts towards natural language understanding of scholarly text that is central to vastly improve all
+          the said downstream applications are not widespread.
+        </p>
+        
+        <p>
+          To address these gaps, we, the organizers of BIRNDL and WOSP workshops, propose the first Workshop on Scholarly
+          Document Processing. We seek to reach to the broader NLP and AI/ML community to pool the distributed efforts to
+          improve scholarly document understanding and enable intelligent access to the published research. The goal of SDP is
+          two-fold: to increase collaboration between communities interested in leveraging knowledge stored in scientific
+          literature and data and to establish SDP as the single-focused
+          primary venue for the field.
+        </p>
+        
+        <p>
+          We seek to appeal to the mainstream NLP and ML community working on SDP tasks &ndash; which are NLP tasks &ndash; to publish at
+          SDP as we seek to establish SDP as the integrated premier venue. We have established a steering committee to help us
+          turn SDP into a conference in the forthcoming years.
+        </p>
 
         <!-- TOPICS ============================================= -->
 
-        <h2>Topics of interest</h2>
-        <p>We invite submissions from all communities interested in natural language processing, information retrieval, and data mining problems in scientific documents; and in processing scientific documents for easier access to various audiences. The topics of interest include, but are not limited to: </p>
-        <ul class="topics-list">
+        <h2 id="topics">Topics of interest</h2>
+
+        <p>
+          We invite submissions from all communities interested in natural language processing, information retrieval, and data
+          mining problems in scientific documents; and in processing scientific documents for easier access to various
+          audiences. The topics of interest include, but are not limited to:
+        </p>
+
+        <ul><!-- class="topics-list">-->
           <li>Information extraction, text mining and parsing of scholarly literature</li>
           <li>Reproducibility and peer review</li>
           <li>Lay Summarization (i.e., summaries created for non-experts) of individual and collections of scholarly
@@ -188,6 +211,7 @@
           <li>Summarization and question-answering for scholarly documents</li>
           <li>Semantic and network-based indexing, search and navigation in structured text</li>
           <li>Graph analysis/mining including citation and co-authorship networks</li>
+          <li>Analysing and mining of citation contexts for document understanding and retrieval </li>
           <li>New scholarly language resources and evaluation</li>
           <li>Connecting and interlinking publications, data, tweets, blogs or their parts</li>
           <li>Disambiguation, metadata extraction, enrichment, and data quality assurance for scholarly documents</li>
@@ -196,20 +220,26 @@
           <li>Infrastructures for accessing scientific publications and/or research data</li>
         </ul>
 
-        <!-- <p>
-          Overall, the workshop looks forward to all novel research involved in the mining of scholarly artifacts.
-        </p> -->
-
         <!-- SUBMISSION INFO ============================================= -->
 
-        <h2>Shared Tasks</h2>
-         <ol>
-          <h3><li><a href="sharedtasks.html#clscisumm">6th CL-SciSumm 2020</a><h3></li></h3>
-          <h3><li><a href="sharedtasks.html#laysumm">1st CL-LaySumm 2020</a></li></h3>
-          <h3><li><a href="sharedtasks.html#longsumm">LongSumm 2020</a></li></h3>
-       </ol>
+        <h2 id="sharedtasks">Shared Tasks</h2>
+
+        <p>
+          The <a href="sharedtasks.html">shared task track</a> includes the following tasks:
+        </p>
+
+        <ol>
+          <li><a href="sharedtasks.html#clscisumm">CL-SciSumm 2020</a>: The 6<sup>th</sup> Computational Linguistics Scientific Document Summarization Shared Task</li>
+          <li><a href="sharedtasks.html#laysumm">CL-LaySumm 2020</a>: The 1<sup>st</sup> Computational Linguistics Lay Summary Challenge Shared Task</li>
+          <li><a href="sharedtasks.html#longsumm">LongSumm 2020</a>: The 1<sup>st</sup> Shared Task on Generating Long Summaries for Scientific Documents</li>
+        </ol>
+
+        <p>
+          For detailed information about the tasks, data, evaluation, and organizers, please see the 
+          <a href="sharedtasks.html">shared tasks page</a>.
+        </p>
     
-        <h2>Submission information</h2>
+        <h2 id="submission">Submission Information</h2>
 
         <p>
           Authors are invited to submit short and full papers with unpublished, original work. Submissions will be
@@ -219,8 +249,8 @@
 
         <p>
           The submissions should be in PDF format and anonymized for review. All submissions must be written in English
-          and follow the <a href="https://2020.emnlp.org/call-for-papers">EMNLP 2020 formatting
-            requirements.</a>
+          and follow the <a href="https://2020.emnlp.org/call-for-papers">EMNLP 2020 formatting requirements</a>, 
+          which will be provided on the conference website soon.
         </p>
       
         <p>
@@ -237,12 +267,21 @@
         </p>
         
         <p>
-          <b>Submission Website: </b>Submission is electronic, using the Softconf START conference management system. EMNLP will make it available soon. </p>
-        <p><b>Shared Task registration:</b> Participants of all shared tasks need to register <a href="https://docs.google.com/forms/d/e/1FAIpQLScfHzByrog-k299qBuCp3SbPWcb905_kmOWMvHpDH57VLpVrg/viewform">here</a> before March 31st, 2020 </p>
+          <b>Submission Website:</b> Submission is electronic, using the Softconf START conference management system.
+          A link to the submission system will be provided here as soon as it is made available by EMNLP.
+        </p>
 
+        <p>
+          <b>Shared Task registration:</b> Participants of all shared tasks need to 
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScfHzByrog-k299qBuCp3SbPWcb905_kmOWMvHpDH57VLpVrg/viewform">register here</a> 
+          before March 31st, 2020.
+        </p>
       
-        <h3>Important Dates</h3>
-        <h4>Research Track</h4>
+        <h2 id="dates">Important Dates</h2>
+        <!-- <h4>Research Track</h4> -->
+
+        <p>For shared task dates please see the <a href="sharedtasks.html#dates">shared tasks page</a>.</p>
+
          <table class="table table-striped">
           <thead>
             <tr>
@@ -269,7 +308,8 @@
             </tr>
           </tbody>
         </table>
-        <h4>Shared Task Track</h4>
+
+        <!-- <h4>Shared Task Track</h4>
         <table class="table table-striped">
           <thead>
             <tr>
@@ -307,21 +347,71 @@
               <td>Nov 11 or 12, 2020</td>
             </tr>
           </tbody>
-        </table>
+        </table> -->
 
-        <p> The dates are at this stage indicative only and can change. </p>
-        <h3>Journal Extension</h3>
-        <p>In the past, the accepted authors were invited to submit an extended version of their work to a special issue of a selected journal. The organizers are currently in the process of identifying appropriate journals to host a similar special issue this year. Relevant updates including topics and requirements for this special issue will be shared on the workshop website in due time.</p>
-        <h3><a href="keynotespeakers.html">Keynote Speakers</a></h3>
+        <p> The dates are at this stage indicative only and can change.</p>
+
+        <h2 id="journal">Journal Extension</h2>
+        <p>
+          In the past, the accepted authors were invited to submit an extended version of their work to a special issue of a selected journal. The organizers are currently in the process of identifying appropriate journals to host a similar special issue this year. Relevant updates including topics and requirements for this special issue will be shared on the workshop website in due time.
+        </p>
+
+        <h2 id="keynotes">Keynote Speakers</h2>
+
+        <p>
+          <a href="keynotespeakers.html">Kuansang Wang</a>, Managing Director, Microsoft Research Outreach Academic Services, will 
+          be the first keynote speaker.
+        </p>
+
+        <p>The second keynote speaker will be announced shortly.</p>
+
+        <h2 id="committees">Committees</h2>
+
+        <ul>
+          <li><a href="organizingcommittee.html">Organizing Committee</a></li>
+          <li><a href="steeringcommittee.html">Steering Committee</a></li>
+          <li><a href="programcommittee.html">Program Committee</a></li>
+        </ul>
+
+        <!-- <h3><a href="keynotespeakers.html">Keynote Speakers</a></h3>
         <h3><a href="organizingcommittee.html">Organizing Committee</a></h3>
         <h3><a href="steeringcommittee.html">Steering Committee</a></h3>
-        <h3><a href="programcommittee.html">Program Committee</a></h3>
+        <h3><a href="programcommittee.html">Program Committee</a></h3> -->
+
+        <br />
        
         <p>With kind regards,</p>
 
         <p>SDP 2020 organizing committee</p>
 
-   
+      </div>
+
+      <div class="col-md-3 col-md-offset-1">
+        <h3>Links</h3>
+        <a href="https://2020.emnlp.org/call-for-papers">
+          EMNLP 2020 formatting requirements
+        </a>
+
+        <h3>Important Dates</h3>
+
+        <p>
+          Submission deadline &ndash; July 15, 2020
+        </p>
+        <p>
+          Notification of acceptance &ndash; Aug 17, 2020
+        </p>
+        <p>
+          Camera-ready &ndash; Aug 31, 2020
+        </p>
+        <p>
+          Workshop &ndash; Nov 11 or Nov 12, 2020
+        </p>
+
+        <h3>Contact</h3>
+
+        <p>Please contact <a href="mailto:sdproc@googlegroups.com">sdproc@googlegroups.com</a> with any questions regarding the workshop.</p>
+      </div>
+    </div>
 
     <!-- FOOTER ========================================== -->
 
