@@ -403,3 +403,14 @@ a.header-logo-link {
   border: solid 1px #EFEFEF;
   margin-right: 3px;
 }
+
+.alert.alert-info {
+  background-color: #ebf5f8;
+  box-shadow: 0 1px 1px rgba(59,156,186,0.25);
+  padding: 10px;
+}
+
+.alert.alert-info p {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 20px;
+}
