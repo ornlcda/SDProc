@@ -406,7 +406,10 @@ a.header-logo-link {
 
 .alert.alert-info {
   background-color: #ebf5f8;
-  box-shadow: 0 1px 1px rgba(59,156,186,0.25);
+  border-width: 1px;
+  border-color: rgba(154,207,234,0.2);
+  box-shadow: 0 1px 1px rgba(59,156,186,0.2);
+  border-radius: 4px;
   padding: 10px;
 }
 
