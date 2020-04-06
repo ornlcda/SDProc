@@ -217,6 +217,12 @@ a.brand img {
   .navbar-spacing {
     margin-top: 120px;
   }
+  .navbar-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -265,6 +271,8 @@ a.brand img {
   .navbar-nav>li>a {
       padding-top: 10px;
       padding-bottom: 10px;
+      padding-right: 10px;
+      padding-left: 10px;
   }
   .collapse.in {
       display: block !important;
