@@ -425,3 +425,9 @@ a.header-logo-link {
   font-family: 'Fira Sans', sans-serif;
   font-size: 20px;
 }
+
+.older-news-link {
+  text-align: center;
+  font-size: 20px;
+  margin: 20px 0 0 0;
+}
