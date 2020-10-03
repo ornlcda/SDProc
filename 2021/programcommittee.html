@@ -29,10 +29,12 @@
   <!-- icons -->
   <link rel="stylesheet" href="./font-awesome-4.1.0/css/font-awesome.min.css">
 
-  <!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-  <script type="text/javascript" src="script.js"></script> -->
-  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-
+  <!-- jQuery -->
+  <script 
+    src="http://code.jquery.com/jquery-1.12.4.js" 
+    integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+    crossorigin="anonymous">
+  </script>
 
 </head>
 
@@ -40,21 +42,8 @@
 
   <!-- NAVBAR ================================================== -->
 
-  <div class="navbar-wrapper">
-    
-  </div>
-
-  <script>
-    $(function(){
-      $(".navbar-wrapper").load("nav.html");
-    });
-    </script>
-
-<!-- <script>
-  $.get("nav.html", function(data){
-      $("#navbar-wrapper").replaceWith(data);
-  });
-  </script> -->
+  <div class="navbar-wrapper"></div>
+  <script src="menu.js" type="text/javascript"></script>
 
   <!-- MAIN CONTENT ============================================= -->
 
@@ -76,31 +65,10 @@
       <li>
         <a href="http://faculty.cs.niu.edu/~alhoori/"><b>Hamed Alhoori</b></a>, Northern Illinois University, USA
       </li>
-      <!-- <li>
-        <a href="https://www.linkedin.com/in/linda-andersson-76483916/"><b>Linda Andersson</b></a>, Artificial Researcher, Austria
-      </li> -->
       <li>
         <a href="http://tesniere.univ-fcomte.fr/iana/"><b>Iana Atanassova</b></a>, Universit&eacute; de Bourgogne
         Franche-Comt&eacute;, France
       </li>
-      <!-- <li>
-        <a href="https://www.tantallon.org.uk/"><b>Colin Batchelor</b></a>, Cambridge, UK
-      </li> -->
-      <!-- <li>
-        <a href="https://www.scss.tcd.ie/joeran.beel/"><b>Joeran Beel</b></a>, Trinity College Dublin, Ireland
-      </li> -->
-      <!-- <li>
-        <a href="https://www.gesis.org/institut/mitarbeiterverzeichnis/person/katarina.boland"><b>Katarina Boland</b></a>, GESIS, Germany
-      </li> -->
-      <!-- <li>
-        <a href="https://www.irit.fr/~Guillaume.Cabanac/"><b>Guillaume Cabanac</b></a>, University of Toulouse, France
-      </li> -->
-      <!-- <li>
-        <a href="https://www.cs.uic.edu/~cornelia/"><b>Cornelia Caragea</b></a>, University of Illinois at Chicago, US
-      </li> -->
-      <!-- <li>
-        <a href="https://www.gesis.org/institut/mitarbeiterverzeichnis/person/Zeljko.Carevic"><b>Zeljko Carevic</b></a>, GESIS, Germany
-      </li> -->
       <li>
         <a href="http://faculty.iiitd.ac.in/~tanmoy/"><b>Tanmoy Chakraborty</b></a>, IIIT Delhi, India
       </li>
@@ -108,48 +76,18 @@
         <a href="hhttps://www.daiict.ac.in/profile/sourish-dasgupta/"><b>Sourish Dasgupta</b></a>, University of
         Missouri - Kansas City, USA
       </li>
-      <!-- <li>
-        <a href="https://www.informatik.tu-darmstadt.de/ukp/ukp_home/staff_ukp/detailseite_mitarbeiter_1_42176.en.jsp"><b>Richard Eckart de Castilho</b></a>, TU Darmstadt, Germany
-      </li> -->
       <li>
         <a href="https://www.iitp.ac.in/~asif/"><b>Asif Ekbal</b></a>, Indian Institute of Technology Patna, India
       </li>
-      <!-- <li>
-        <a href="https://www.linkedin.com/in/anitadewaard/"><b>Anita de Waard</b></a>, Elsevier, USA
-      </li> -->
-      <!-- <li>
-        <b><a href="https://www.linkedin.com/in/helenadeus">Helena Deus</a></b>, Elsevier Labs
-      </li> -->
-      <!-- <li>
-        <a href="https://www.linkedin.com/in/danielduma/"><b>Daniel Duma</b></a>, University of Edinburgh, UK
-      </li> -->
-      <!-- <li>
-        <b><a href="http://fox.cs.vt.edu/foxinfo.html">Ed A. Fox</a></b>, Virginia Tech, USA
-      </li> -->
-      <!-- <li>
-        <b><a href="https://www.is.inf.uni-due.de/staff/fuhr.html.en">Norbert Fuhr</a></b>, University of Duisburg, Germany
-      </li> -->
       <li>
         <a href="https://zhenggao.io/"><b>Zheng Gao</b></a>, Amazon Alexa AI, USA
       </li>
-      <!-- <li>
-        <b><a href="http://clgiles.ist.psu.edu/">C. Lee Giles</a></b>, Penn State University, USA
-      </li> -->
       <li>
         <b><a href="https://www.gipp.com/home/">Bela Gipp</a></b>, University of Wuppertal, Germany
       </li>
-      <!-- <li>
-        <b><a href="https://www.uni-mannheim.de/dws/people/professors/prof-dr-goran-glavas/">Goran Glavas</a></b>, University of Mannheim, Germany
-      </li> -->
       <li>
         <a href="http://pgroth.com/bio/"><b>Paul Groth</b></a>, University of Amsterdam, Netherlands
       </li>
-      <!-- <li>
-        <b><a href="https://homes.cs.washington.edu/~hannaneh/">Hannaneh Hajishirzi</a></b>, University of Washington, USA
-      </li> -->
-      <!-- <li>
-        <b><a href="https://www.cs.cmu.edu/~hovy/">Eduard Hovy</a></b>, Carnegie Mellon University, USA
-      </li> -->
       <li>
         <b><a href="https://libguides.utk.edu/prf.php?account_id=71097">Monica Ihli</a></b>, University of Tennessee
         Knoxville, USA
@@ -157,18 +95,9 @@
       <li>
         <b><a href="http://jurgens.people.si.umich.edu/">David Jurgens</a></b>, University of Michigan, USA
       </li>
-      <!-- <li>
-        <b><a href="https://www.linkedin.com/in/amenikacem/?originalSubdomain=fr">Ameni Kacem</a></b>, iCOVER, France
-      </li> -->
       <li>
         <b><a href="http://kti.tugraz.at/staff/rkern/about/">Roman Kern</a></b>, Graz University of Technology, Austria
       </li>
-      <!-- <li>
-        <b><a href="https://www.keyakkie.com/">Atsushi Keyaki</a></b>, Denso IT Laboratory Inc, Tokyo, Japan
-      </li> -->
-      <!-- <li>
-        <b><a href="https://www.linkedin.com/in/martinklein0815/">Martin Klein</a></b>, Los Alamos National Laboratory, USA
-      </li> -->
       <li>
         <a href="http://humboldt-uni.academia.edu/ValiaKordoni"><b>Valia Kordoni</b></a>, Humboldt University Berlin,
         Germany
@@ -178,61 +107,22 @@
             href="https://www.informatik.tu-darmstadt.de/ukp/ukp_home/staff_ukp/detailseite_mitarbeiter_1_42944.en.jsp">Ilia
             Kuznetsov</a></b>, Technical University of Darmstadt, Germany
       </li>
-      <!-- <li>
-        <b><a href="https://vbn.aau.dk/en/persons/130844">Birger Larsen</a></b>, Aalborg University, Denmark
-      </li> -->
-      <!-- <li>
-        <b><a href="https://www.uni-mannheim.de/dws/people/researchers/phd-students/anne-lauscher/">Anne Lauscher</a></b>, University of Mannheim, Germany
-      </li> -->
-      <!-- <li>
-        <b><a href="http://nemis.isti.cnr.it/person/paolo-manghi">Paolo Manghi</a></b>, National Research Council of Italy, Italy
-      </li> -->
-      <!-- <li>
-        <b><a href="http://web.ist.utl.pt/bruno.g.martins/">Bruno Martins</a></b>, University of Lisbon, Portugal
-      </li> -->
       <li>
         <b><a href="https://www.isg.uni-konstanz.de/people/doctoral-researchers/norman-meuschke/">Norman
             Meuschke</a></b>, University of Wuppertal, Germany
       </li>
-      <!-- <li>
-        <b><a href="https://researchers.mq.edu.au/en/persons/diego-molla-aliod">Diego Molla-Aliod</a></b>, Macquarie University, Australia
-      </li> -->
-      <!-- <li>
-        <b><a href="http://people.ischool.berkeley.edu/~nakov/">Preslav Nakov</a></b>, Qatar Computing Research Inst., Qatar
-      </li> -->
       <li>
         <b><a href="https://federiconanni.com/">Federico Nanni</a></b>, Alan Turing Institute, UK
       </li>
-      <!-- <li>
-        <b><a href="https://jumanan.github.io/">Jumana Nassour</a></b>, Ben-Gurion University, Israel
-      </li> -->
-      <!-- <li>
-        <b><a href="https://derwen.ai/paco/">Paco Nathan</a></b>, Derwen, Inc. , US
-      </li> -->
-      <!-- <li>
-        <b><a href="http://www.lr.pi.titech.ac.jp/~oku/index-e.html">Manabu Okumura</a></b>, Tokyo Institute of Technology, Japan
-      </li> -->
       <li>
         <b><a href="http://people.kmi.open.ac.uk/francesco/">Francesco Osborne</a></b>, Open University, UK
       </li>
-      <!-- <li>
-        <b><a href="https://www.cmpe.boun.edu.tr/~ozgur/">Arzucan Ozgur</a></b>, Bogazici University, Turkey
-      </li> -->
       <li>
         <b><a href="https://www.linkedin.com/in/sujitpal">Sujit Pal</a></b>, Elsevier Labs, USA
       </li>
-      <!-- <li>
-        <b><a href="https://essepuntato.it/">Silvio Peroni</a></b>, University of Bologna, Italy
-      </li> -->
-      <!-- <li>
-        <b><a href="https://sites.google.com/site/piryanirajesh/">Rajesh Piryani</a></b>, South Asian University, India
-      </li> -->
       <li>
         <b><a href="https://bplank.github.io/">Barbara Plank</a></b>, IT University of Copenhagen, Denmark
       </li>
-      <!-- <li>
-        <b><a href="https://www.linkedin.com/in/animesh-prasad/?originalSubdomain=uk">Animesh Prasad</a></b>, Amazon, Cambridge, UK
-      </li> -->
       <li>
         <b><a href="http://kmi.open.ac.uk/people/member/david-pride">David Pride</a></b>, Open University, UK
       </li>
@@ -244,31 +134,19 @@
         <b><a href="https://www.researchgate.net/profile/Terry_Ruas">Terry Ruas</a></b>, University of Wuppertal,
         Germany
       </li>
-      <!-- <li>
-        <b><a href="https://www.upf.edu/web/horacio-saggion">Horacio Saggion</a></b>, Universitat Pompeu Fabra, Spain
-      </li> -->
       <li>
         <a href="https://www.linkedin.com/in/angelosalatino/"><b>Angelo Antonio Salatino</b></a>, The Open University,
         UK
       </li>
-      <!-- <li>
-        <b><a href="https://www.schaer.de/">Philipp Schaer</a></b>, TH Cologne, Germany
-      </li> -->
       <li>
         <a href="https://mayank4490.github.io/"><b>Mayank Singh</b></a>, Indian Institute of Technology Gandhinagar,
         India
       </li>
-      <!-- <li>
-        <b><a href="http://viveksingh.in/">Vivek Kumar Singh</a></b>, Banaras Hindu University, India
-      </li> -->
       <li>
         <b><a
             href="https://www.tib.eu/en/research-development/data-science-digital-libraries/staff/markus-stocker/">Markus
             Stocker</a></b>, German National Library of Science and Technology, Germany
       </li>
-      <!-- <li>
-        <b><a href="https://www.db.soc.i.kyoto-u.ac.jp/~sugiyama/">Kazunari Sugiyama</a></b>, Kyoto University, Japan
-      </li> -->
       <li>
         <b><a href="https://www.researchgate.net/profile/Wojtek_Sylwestrzak">Wojtek Sylwestrzak</a></b>, University of
         Warsaw, Poland
@@ -280,12 +158,6 @@
       <li>
         <a href="https://www.linkedin.com/in/georgetsatsaronis/"><b>George Tsatsaronis</b></a>, Elsevier, Netherlands
       </li>
-      <!-- <li>
-        <b><a href="https://itu.edu.pk/faculty-itu/dr-saeed-ul-hassan/">Saeed Ul Hassan</a></b>, IT University, Pakistan
-      </li> -->
-      <!-- <li>
-        <b><a href="http://bime.uw.edu/faculty/lucy-vanderwende/">Lucy Vanderwende</a></b>, University of Washington, USA
-      </li> -->
       <li>
         <b><a href="https://www.researchgate.net/scientific-contributions/Rajeev-Verma-2143227816">Rajeev Verma</a></b>,
         Indian Institute of Technology Patna, India
@@ -296,24 +168,9 @@
       <li>
         <b><a href="http://ludowaltman.nl/">Ludo Waltman</a></b>, Leiden University, Netherlands
       </li>
-      <!-- <li>
-        <b><a href="https://people.csiro.au/W/S/Stephen-Wan">Stephen Wan</a></b>, CSIRO, Australia
-      </li> -->
-      <!-- <li>
-        <b><a href="http://homepages.inf.ed.ac.uk/bonnie/">Bonnie Webber</a></b>, University of Edinburgh, UK
-      </li> -->
       <li>
         <b><a href="https://www.linkedin.com/in/jameswweis/">James Weis</a></b>, MIT Media Lab, USA
       </li>
-      <!-- <li>
-        <b><a href="https://www.linkedin.com/in/ivanajw/">Ivana Williams</a></b>, Chan Zuckerberg Initiative, USA
-      </li> -->
-      <!-- <li>
-        <b><a href="https://uwm.edu/informationstudies/people/wolfram-dietmar/">Dietmar Wolfram</a></b>, University of Wisconsin-Milwaukee, USA
-      </li> -->
-      <!-- <li>
-        <b><a href="https://www.cs.odu.edu/~jwu/">Jian Wu</a></b>, Old Dominion University, USA
-      </li> -->
       <li>
         <b><a href="https://www.sheffield.ac.uk/is/people/academic/ziqi-zhang">Ziqi Zhang</a></b>, University of
         Sheffield, UK
@@ -329,7 +186,6 @@
         <div class="footer-left">
           <p>Contact: <a href="mailto:sdproc@googlegroups.com">sdproc@googlegroups.com</a></p>
           <p>Follow us: <a href="https://twitter.com/sdproc">https://twitter.com/SDProc</a></p>
-          <!-- <p>&copy; 2020 Oak Ridge National Laboratory</p> -->
         </div>
         <div class="footer-right">
           <a href="#">Back to top</a>
@@ -340,30 +196,8 @@
 
   <!-- Bootstrap core JavaScript ================================================== -->
 
-  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> -->
-  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
   <script src="./dist/js/bootstrap.min.js"></script>
   <script src="./assets/js/docs.min.js"></script>
-
-  <!-- <script type="text/JavaScript">
-    $(function() {
-
-      $(".navbar-wrapper").load("navbar.html");
-
-      function activeNav() {
-          var pgurl = window.location.href.substr(window.location.href.lastIndexOf("/")+1);
-          $("#nav ul li a").each(function(){
-                if($(this).attr("href") == pgurl || $(this).attr("href") == '' )
-                $(this).addClass("active");
-          });
-      }
-
-      setTimeout(function() {
-          activeNav();
-      }, 100);
-
-      });
-  </script> -->
 
 </body>
 
