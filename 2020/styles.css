@@ -406,12 +406,6 @@ a.header-logo-link {
   margin-right: -5px;
 }
 
-.bio-photo img {
-  object-fit: cover;
-  width:210px;
-  height:210px;
-}
-
 .imagedropshadow {
   padding: 5px;
   border: solid 1px #EFEFEF;
