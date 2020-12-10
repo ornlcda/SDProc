@@ -5,9 +5,9 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Second Workshop on Scholarly Document Processing">
+  <meta name="description" content="First Workshop on Scholarly Document Processing">
 
-  <title>2nd Workshop on Scholarly Document Processing</title>
+  <title>1st Workshop on Scholarly Document Processing</title>
 
   <!-- Bootstrap core CSS -->
   <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
@@ -19,9 +19,9 @@
 
   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-      <![endif]-->
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
   <!-- Custom styles for this template -->
   <link href="styles.css" rel="stylesheet">
@@ -29,17 +29,94 @@
   <!-- icons -->
   <link rel="stylesheet" href="./font-awesome-4.1.0/css/font-awesome.min.css">
 
-  <!-- jQuery -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
 </head>
 
 <body>
 
   <!-- NAVBAR ================================================== -->
 
-  <div class="navbar-wrapper"></div>
-  <script src="menu.js" type="text/javascript"></script>
+  <div class="navbar-wrapper">
+    <div class="container">
+      <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="container">
+
+          <!-- MENU BUTTON FOR SMALL SCREENS + LOGO ================================ -->
+
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="header-logo-link" href="index.html">
+              <div class="header-logo">
+                <span class="letter-highlight">S</span>cholarly
+                <span class="letter-highlight">D</span>ocument
+                <span class="letter-highlight">P</span>rocessing
+                @ <span class="letter-highlight">EMNLP 2020</span>
+              </div>
+            </a>
+          </div>
+
+          <!-- MENU OPTIONS ================================================== -->
+
+          <div class="navbar-collapse collapse pull-right">
+            <ul class="nav navbar-nav">
+              <li><a href="index.html">Home</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Call for Papers<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="cfp.html">Call for Papers</a></li>
+                  <li><a href="cfp.html#topics">Topics of Interest</a></li>
+                  <li><a href="cfp.html#sharedtasks">Shared Tasks</a></li>
+                  <li><a href="cfp.html#submission">Submission Information</a></li>
+                  <li><a href="cfp.html#dates">Important Dates</a></li>
+                  <li><a href="cfp.html#journal">Journal Extension</a></li>
+                  <li><a href="cfp.html#keynotes">Keynote Speakers</a></li>
+                  <li><a href="cfp.html#committees">Committees</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Shared Tasks<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="sharedtasks.html">Call for Participation</a></li>
+                  <li><a href="sharedtasks.html#clscisumm">CL-SciSumm</a></li>
+                  <li><a href="sharedtasks.html#laysumm">CL-LaySumm</a></li>
+                  <li><a href="sharedtasks.html#longsumm">LongSumm</a></li>
+                  <li><a href="sharedtasks.html#register">Registration</a></li>
+                  <li><a href="sharedtasks.html#dates">Important Dates</a></li>
+                  <li><a href="sharedtasks.html#organizers">Organizers</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Program<sup><mark>NEW!</mark></sup><b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="keynotespeakers.html">Keynotes</a></li>
+                  <li><a href="program.html">Program</a></li>
+                  <li><a href="accepted-papers.html">Accepted Papers-Research Track</a></li>
+                </ul>
+              </li>
+              <li class="dropdown active">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Committees<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="organizingcommittee.html">Organizing Committee</a></li>
+                  <li><a href="steeringcommittee.html">Steering Committee</a></li>
+                  <li><a href="programcommittee.html">Program Committee</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+              </li>
+              <li><a href="previousworkshops.html">Other Workshops</a></li>
+              <li><a href="https://2020.emnlp.org/">Venue</a></li>
+            </ul>
+          </div>
+
+          <!-- MENU OPTIONS END ================================ -->
+
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- MAIN CONTENT ============================================= -->
 
@@ -51,15 +128,13 @@
 
     <div class="row featurette">
       <div class="col-md-9 bio-text">
-        <h2 class="featurette-name-heading"><a href="https://beltagy.net/">Iz Beltagy</a></h2>
-        <p class="lead">Allen Institute for Artificial Intelligence (AI2)</p>
-        <p>Iz Beltagy is a Research Scientist at AI2 working on the Semantic Scholar project
-          and focusing on language modeling, domain adaptation, summarization and document-level understanding. His
-          research has been recognized with a best paper honorary mention at ACL 2020. He was an organizer of the 1st
-          SciNLP workshop at AKBC 2020. He received his PhD from the University of Texas at Austin.</p>
+        <h2><a href="https://www.linkedin.com/in/muthukumarc87/">Muthu Kumar Chandrasekaran</a></h2>
+        <p class="lead">Amazon, Seattle, USA</p>
+        <p>Muthu Kumar Chandrasekaran is a Research Scientist at Amazon, Seattle working on Natural language understanding. Previously he was a Scientist at SRI's International Artificial Intelligence Center. He completed his Ph.D. from NUS School of Computing. He is broadly interested in natural language processing, machine learning and their applications to information retrieval; specifically, in retrieving and organising information from asynchronous conversation media such as scholarly publications and discussion forums. He has been co-chairing the CL-SciSumm Shared Task series and the BIRNDL workshop series since 2014. He also reviews for ACL, EMNLP, NAACL, CoNLL and JCDL conferences. During his PhD he also interned at the Allen Institute for Artificial Intelligence's Semantic Scholar research and National Institute of Informatics, Tokyo.</p>
+        <!-- <p>youngsr "at" ornl.gov</p> -->
       </div>
       <div class="col-md-3 bio-photo">
-        <img class="featurette-image img-responsive imagedropshadow" src="bio_images/iz.jpg" alt="Iz Beltagy">
+        <img class="featurette-image img-responsive imagedropshadow" src="bio_images/muthu.jpeg" alt="Muthu Kumar Chandrasekaran">
       </div>
     </div>
 
@@ -67,16 +142,19 @@
 
     <div class="row featurette">
       <div class="col-md-9 bio-text">
-        <h2 class="featurette-name-heading"><a href="http://armancohan.com/">Arman Cohan</a></h2>
-        <p class="lead">Allen Institute for Artificial Intelligence (AI2)</p>
-        <p>Arman Cohan is a Research Scientist on the Semantic Scholar team at AI2, focusing on representation learning
-          and transfer learning methods, with special focus on NLP applications in the scientific and biomedical
-          domains. He received his PhD from Georgetown University. His research has been recognized with a best paper
-          award at EMNLP 2017, an honorable mention at COLING 2018, and Harold N. Glassman Distinguished Doctoral
-          Dissertation award in 2019. He was a co-organizer of the 1st SciNLP workshop.</p>
+        <h2 class="featurette-name-heading"><a href="https://www.linkedin.com/in/anitadewaard/">Anita de Waard</a></h2>
+        <p class="lead">Elsevier, USA</p>
+        <p>Anita is VP of Research Collaborations, where her work focuses on working with academic and industry partners
+          on projects pertaining to progressing modes and frameworks for scholarly communication. Since 1997, she has
+          worked on bridging the gap between science publishing and computational and information technologies,
+          collaborating with groups in Europe and the US. From 2006 onwards, de Waard has been working on a discourse
+          analysis of scientific narrative, with an emphasis on finding key epistemic components in biological text and
+          within that scope, helped start the TAC SciSumm workshops in 2013. She is a cofounder of Force11 and cofounder
+          of the Research Data Alliance's group on data retrieval technologies.</p>
+        <!-- <p>mhouston "at" nvidia.com</p>  -->
       </div>
       <div class="col-md-3 bio-photo">
-        <img class="featurette-image img-responsive imagedropshadow" src="bio_images/arman.jpg" alt="Arman Cohan">
+        <img class="featurette-image img-responsive imagedropshadow" src="bio_images/anita.jpg" alt="Anita de Waard">
       </div>
     </div>
 
@@ -84,14 +162,15 @@
 
     <div class="row featurette">
       <div class="col-md-9 bio-text">
-        <h2 class="featurette-name-heading"><a
-            href="https://researcher.watson.ibm.com/researcher/view.php?person=il-GUYF">Guy Feigenblat</a></h2>
+        <h2 class="featurette-name-heading"><a href="https://researcher.watson.ibm.com/researcher/view.php?person=il-GUYF">Guy Feigenblat</a></h2>
         <p class="lead">IBM Research AI, Haifa Research Lab, Israel</p>
-        <p>Guy Feigenblat is a team leader at the Language and Retrieval group in IBM Research AI, working on AI, NLP
-          and Information Retrieval (IR). In recent years he mainly focuses on document summarization research for
-          various scenarios and domains. Guy is involved in the development of <a href="http://ibm.biz/sciencesum">IBM
-            Science Summarizer</a>, a novel search engine for scientific literature. Guy holds a Ph.D. in computer
-          science from Bar-Ilan University.</p>
+        <p>Guy Feigenblat is a team leader at the Language and Retrieval group in IBM Research AI. Guy is interested in
+          AI, NLP and Information Retrieval (IR) research. He currently leads projects focusing on automatic document
+          summarization (query-based, generic, extractive, abstractive) for various domains and use cases. Guy is
+          involved in the development of <a href="http://ibm.biz/sciencesum">IBM Science Summarizer</a>, a novel search
+          engine for scientific literature. Guy holds a Ph.D. in computer science from Bar-Ilan University. He
+          co-organized Stringology workshop 2012.</p>
+        <!-- <p>pattonrm "at" ornl.gov</p> -->
       </div>
       <div class="col-md-3 bio-photo">
         <img class="featurette-image img-responsive imagedropshadow" src="bio_images/guy.jpg" alt="Guy Feigenblat">
@@ -104,10 +183,16 @@
       <div class="col-md-9 bio-text">
         <h2 class="featurette-name-heading"><a href="https://www.sri.com/bios/dayne-freitag/">Dayne Freitag</a></h2>
         <p class="lead">SRI International, San Diego, USA</p>
-        <p>Dayne Freitag is Program Director in SRI's Artificial Intelligence Center, head of the Advanced Analytics
-          group. He leads and participates in research into information extraction and retrieval, with a longstanding
-          emphasis on the scientific and technical literature. He holds a PhD in Computer Science from Carnegie Mellon
+        <p>He is Program Director at SRI's Artificial Intelligence Center. He leads the Advanced Analytics group. His
+          research seeks to apply artificial intelligence to information assimilation, management and exploitation.
+          Freitag has served as principal investigator for a number of research projects including several large,
+          multi-institutional efforts. His research goals have focused on the automation of data science; the automatic
+          extension of mechanistic models through machine reading; knowledge federation over diverse information sources
+          through data analytics and natural language processing; explaining the spread of ideas through online
+          communities; and novel approaches to institutional knowledge management using controlled English. Freitag
+          holds a B.A. in English literature from Reed College, and a Ph.D. in computer science from Carnegie Mellon
           University.</p>
+        <!-- <p>janis.keuper "at" itwm.fhg.de</p> -->
       </div>
       <div class="col-md-3 bio-photo">
         <img class="featurette-image img-responsive imagedropshadow" src="bio_images/dayne.jpg" alt="Dayne Freitag">
@@ -118,50 +203,58 @@
 
     <div class="row featurette">
       <div class="col-md-9 bio-text">
-        <h2 class="featurette-name-heading"><a href="https://tirthankarslg.wixsite.com/ainlpmldl">Tirthankar Ghosal</a>
-        </h2>
+        <h2 class="featurette-name-heading"><a href="https://tirthankarslg.wixsite.com/ainlpmldl">Tirthankar Ghosal</a></h2>
         <p class="lead">Indian Institute of Technology Patna, India</p>
-        <p>Tirthankar Ghosal is a doctoral researcher at the IIT Patna. His research interests are NLP for Scholarly
-          Communications and Peer Review, BioNLP, and Summarization. He is the co-editor of SIGIR Forum and served as
-          D\&I co-chair at AACL-IJCNLP 2020, ACL 2020 (Financial Access), NAACL 2019 (F&A). Tirthankar is also the
-          organizing member of SDP 2020, ICON 2020, WiNLP 2020, EurNLP 2021, WiNLP 2021, FORCE 2021.</p>
+        <p>Tirthankar Ghosal is a final year doctoral scholar at the Indian Institute of Technology (IIT) Patna and recipient 
+          of the Visvesvaraya Fellowship from Ministry of Electronics and Information Technology, Government of India (GoI). 
+          He works on AI techniques to support the academic peer review system and 
+          scholarly communications using NLP/ML/IR. He is the co-editor of SIGIR Forum and currently serves as the Diversity & Inclusion
+          (D&I) co-chair at AACL-IJCNLP 2020 and earlier at ACL 2020 (Financial Access) and NAACL 2019 (F&A). 
+          Tirthankar is also the organizing member of ICON 2020, Widening NLP (WiNLP) 2020 (publicity), European NLP (EurNLP) Summit 2021, WiNLP 2021, and FORCE 2021. 
+          He has been associated with organizing several Ministry of Human Resources and Development (MHRD), 
+          GoI funded Global Initiative of Academic Network (GIAN) workshops at IIT Patna since 2016. 
+         </p>
+        <!-- <p>mhouston "at" nvidia.com</p> -->
       </div>
       <div class="col-md-3 bio-photo">
-        <img class="featurette-image img-responsive imagedropshadow" src="bio_images/tirthankar.jpg"
-          alt="Tirthankar Ghosal">
+        <img class="featurette-image img-responsive imagedropshadow" src="bio_images/tirthankar.jpg" alt="Tirthankar Ghosal">
       </div>
     </div>
 
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-9 bio-text">
-        <h2 class="featurette-name-heading"><a href="https://research.google/people/author38002/">Keith Hall</a></h2>
-        <p class="lead">Google AI</p>
-        <p>Keith Hall is a Research Scientist at Google working on NLP and Machine Learning. He leads a group of
-          researchers and engineers developing tools and models for exploring scientific literature. He previously was
-          an assistant research professor at JHU and part of the Center for Language and Speech Processing. He received
-          his PhD from Brown University.</p>
-      </div>
-      <div class="col-md-3 bio-photo">
-        <img class="featurette-image img-responsive imagedropshadow" src="bio_images/keith.png" alt="Keith Hall">
-      </div>
-    </div>
-
-    <hr class="featurette-divider">
+    <!-- <hr class="featurette-divider">
 
     <div class="row featurette">
       <div class="col-md-9 bio-text">
         <h2 class="featurette-name-heading"><a href="http://dasha.tech/">Drahomira Herrmannova</a></h2>
         <p class="lead">Oak Ridge National Laboratory, USA</p>
-        <p>Drahomira Herrmannova is a Research Scientist at the Department of Energy Oak Ridge National Laboratory,
-          working on information extraction and information retrieval for biomedical and scientific domains. Since 2014,
-          Drahomira was an organizer of the WOSP workshop series at JCDL/LREC. In 2017 she also organized the SWM
-          workshop at WSDM.</p>
+        <p>Drahomira Herrmannova is a R&D Associate Staff Member in the Computational Data Analytics Group at the
+          Department of Energy Oak Ridge National Laboratory. She has been involved in a number of projects focused on
+          research assessment, open access/science, and information retrieval and extraction from scientific
+          publications. Since 2014, Drahomira was one of the core organizers of the WOSP workshop series colocated with
+          JCDL and later LREC. In 2017 she also organized the SWM workshop at WSDM. Drahomira received her PhD in text
+          mining for research publication evaluation from the Open University, UK, in 2018.</p>
+      
       </div>
       <div class="col-md-3 bio-photo">
-        <img class="featurette-image img-responsive imagedropshadow" src="bio_images/dasha.jpeg"
-          alt="Drahomira Herrmannova">
+        <img class="featurette-image img-responsive imagedropshadow" src="bio_images/dasha.jpeg" alt="Drahomira Herrmannova">
+      </div>
+    </div> -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-9 bio-text">
+        <h2 class="featurette-name-heading"><a href="https://www.cs.cmu.edu/~hovy/">Eduard Hovy</a></h2>
+        <p class="lead">Research Professor, LTI, Carnegie Melon University, USA</p>
+        <p>His research includes work on computational semantics of human language (such as text analysis, event
+          detection and coreference, text summarization and generation, question answering, discourse processing,
+          ontologies, text mining, text annotation, and machine translation evaluation), aspects of social media (such
+          as event detection and tracking, sentiment and opinion analysis, and author profile creation), analysis of the
+          semantics of non-textual information such as tables, and aspects of digital government.</p>
+        <!-- <p>mhouston "at" nvidia.com</p> -->
+      </div>
+      <div class="col-md-3 bio-photo">
+        <img class="featurette-image img-responsive imagedropshadow" src="bio_images/eduard.jpg" alt="Eduard Hovy">
       </div>
     </div>
 
@@ -171,9 +264,14 @@
       <div class="col-md-9 bio-text">
         <h2 class="featurette-name-heading"><a href="http://kmi.open.ac.uk/people/member/petr-knoth">Petr Knoth</a></h2>
         <p class="lead">Open University, UK</p>
-        <p>Petr Knoth leads a R&D team working in the domains of text-mining, digital libraries and open access/science,
-          and is the founder, product and team leader for <a href="core.ac.uk">CORE</a>. Petr is is the founder and main
-          organizer of the WOSP workshop series, and of the 3C Citation Context Classification shared task.</p>
+        <p>Petr Knoth leads a R&D team working in the domains of text-mining, digital libraries and open access/science.
+          Petr is the founder, product and team leader for CORE, which is a service that aggregates millions of open
+          access articles from around the world and makes them available for people to search and machines to text-mine.
+          Previously, he worked as a Senior Data Scientist at Mendeley on information extraction and content
+          recommendation for research. Petr has been involved as a researcher and as a PI in a number of European
+          Commission, national and international funded research projects in the areas of text-mining, open science and
+          eLearning. Petr is also the founder and main organizer of the WOSP workshop series.</p>
+        <!-- <p>mhouston "at" nvidia.com</p> -->
       </div>
       <div class="col-md-3 bio-photo">
         <img class="featurette-image img-responsive imagedropshadow" src="bio_images/petr.jpeg" alt="Petr Knoth">
@@ -184,15 +282,17 @@
 
     <div class="row featurette">
       <div class="col-md-9 bio-text">
-        <h2 class="featurette-name-heading"><a href="https://kyleclo.github.io/">Kyle Lo</a></h2>
-        <p class="lead">Allen Institute for Artificial Intelligence (AI2)</p>
-        <p>Kyle Lo is a researcher on the Semantic Scholar team working on fact checking, summarization, and
-          explanations to reduce information overload. His recent work on domain adaptation was awarded runner-up for
-          best paper at ACL 2020. Kyle was an organizer of the 1st SciNLP workshop at AKBC 2020, the TREC-COVID shared
-          task at TREC 2020, and the EPIC-QA challenge at TAC 2020.</p>
+        <h2 class="featurette-name-heading"><a href="https://researcher.watson.ibm.com/researcher/view.php?person=il-DAVIDKO">David Konopnicki</a><David></h2>
+        <p class="lead">IBM Research AI, Haifa Research Lab, Israel</p>
+        <p>David Konopnicki manages the Language and Retrieval group in IBM Research AI and is leading a variety of R\&D
+          projects: development of large-scale full-text search engines, building customer profiles from enterprise and
+          social media sources, affective computing on conversations data and more. David leads the development of <a
+            hef="http://ibm.biz/sciencesum">IBM Science Summarizer</a>, a novel search engine for scientific literature.
+          David was a co-organizer of the THUM workshop at UMAP 2017, and the organizer of ISCOL 2018, and 2019.</p>
+        <!-- <p>mhouston "at" nvidia.com</p> -->
       </div>
       <div class="col-md-3 bio-photo">
-        <img class="featurette-image img-responsive imagedropshadow" src="bio_images/kyle.jpg" alt="Kyle Lo">
+        <img class="featurette-image img-responsive imagedropshadow" src="bio_images/david.jpg" alt="David Konopnicki">
       </div>
     </div>
 
@@ -200,14 +300,14 @@
 
     <div class="row featurette">
       <div class="col-md-9 bio-text">
-        <h2 class="featurette-name-heading"><a
-            href="https://www.gesis.org/institut/mitarbeiterverzeichnis/person/philipp.mayr">Philipp Mayr</a></h2>
+        <h2 class="featurette-name-heading"><a href="https://www.gesis.org/institut/mitarbeiterverzeichnis/person/philipp.mayr">Philipp Mayr</a></h2>
         <p class="lead">GESIS &ndash; Leibniz Institute for the Social Sciences, Germany</p>
-        <p>Philipp Mayr is a team leader at the GESIS -- Leibniz-Institute for the Social Sciences department Knowledge
-          Technologies for the Social Sciences. Philipp Mayr received his PhD in applied informetrics and information
-          retrieval from Humboldt University Berlin in 2009. His research group focuses on methods and techniques for
-          interactive information and data retrieval. Philipp was the main organizer of the BIR workshops at ECIR
-          2014-2020 and the BIRNDL workshops at JCDL and SIGIR.</p>
+        <p>Philipp Mayr is a team leader at the GESIS &ndash; Leibniz-Institute for the Social Sciences department
+          Knowledge Technologies for the Social Sciences. Philipp Mayr received his PhD in applied informetrics and
+          information retrieval from Humboldt University Berlin in 2009. His research group focuses on methods and
+          techniques for interactive information retrieval. Philipp was the main organizer of the BIR workshops at ECIR
+          2014-2019 and the BIRNDL workshops at JCDL and SIGIR.</p>
+        <!-- <p>mhouston "at" nvidia.com</p> -->
       </div>
       <div class="col-md-3 bio-photo">
         <img class="featurette-image img-responsive imagedropshadow" src="bio_images/philipp.jpeg" alt="Philipp Mayr">
@@ -218,12 +318,12 @@
 
     <div class="row featurette">
       <div class="col-md-9 bio-text">
-        <h2 class="featurette-name-heading"><a href="https://www.linkedin.com/in/robertmpatton/">Robert M. Patton</a>
-        </h2>
+        <h2 class="featurette-name-heading"><a href="https://www.linkedin.com/in/robertmpatton/">Robert M. Patton</a></h2>
         <p class="lead">Oak Ridge National Laboratory, USA</p>
         <p>Dr. Robert M. Patton is a computational analytics scientist at Oak Ridge National Laboratory. His research is
           focused on nature-inspired computational techniques for large‐scale data analytics. He is a member of IEEE’s
           CI Society and ACM’s SIGEVO.</p>
+        <!-- <p>mhouston "at" nvidia.com</p> -->
       </div>
       <div class="col-md-3 bio-photo">
         <img class="featurette-image img-responsive imagedropshadow" src="bio_images/robert.png" alt="Robert Patton">
@@ -234,18 +334,13 @@
 
     <div class="row featurette">
       <div class="col-md-9 bio-text">
-        <h2 class="featurette-name-heading"><a
-            href="https://researcher.watson.ibm.com/researcher/view.php?person=il-SHMUELI">Michal Shmueli-Scheuer</a>
-        </h2>
+        <h2 class="featurette-name-heading"><a href="https://researcher.watson.ibm.com/researcher/view.php?person=il-SHMUELI">Michal Shmueli-Scheuer</a></h2>
         <p class="lead">IBM Research AI, Haifa Research Lab, Israel</p>
-        <p>Michal is a senior researcher in the Language and Retrieval research group in IBM Research AI. Her area of
-          expertise is in the fields of NLP including conversational bots, summarization, and affective computing. She
-          was an organizer of the 1st and 2nd user2agent workshops at IUI 2019 and 2020. Michal received her PhD from
-          the University of California, Irvine.</p>
+        <p>Dr. Michal Shmueli-Scheuer is a leader researcher in the Language and Retrieval research group (AI Language department) in IBM Research - Haifa, with over 12 years of industry experience. She holds a Ph.D (2009) degree in Information and Computer Science from the University of California, Irvine, USA. Her area of expertise is in the fields of conversational bots, affective computing, user modeling, large scale analytics, database, and information systems, focusing on user behavior analytics and information management on the web. She has published more than 30 academic papers in leading conferences, and journals, and book chapters. She has served as a PC member and a reviewer of numerous leading conferences and journals. Within IBM, she has lead numerous user modeling related projects and has been recognized for her significant contributions.</p>
+        <!-- <p>mhouston "at" nvidia.com</p> -->
       </div>
       <div class="col-md-3 bio-photo">
-        <img class="featurette-image img-responsive imagedropshadow" src="bio_images/michal.jpeg"
-          alt="Michal Shmueli-Scheuer">
+        <img class="featurette-image img-responsive imagedropshadow" src="bio_images/michal.jpeg" alt="Michal Shmueli-Scheuer">
       </div>
     </div>
 
@@ -253,49 +348,18 @@
 
     <div class="row featurette">
       <div class="col-md-9 bio-text">
-        <h2 class="featurette-name-heading"><a href="https://www.linkedin.com/in/anitadewaard/">Anita de Waard</a></h2>
-        <p class="lead">Elsevier, USA</p>
-        <p>Anita is VP of Research Collaborations, where her work focuses on working with academic and industry partners
-          on projects pertaining to progressing modes and frameworks for scholarly communication. She works on bridging
-          the gap between science publishing and computational and information technologies. De Waard has worked on
-          discourse analysis of scientific narratives, with an emphasis on finding key epistemic components in
-          biological text, and helped establish the TAC BiomedSumm task in 2014.</p>
+        <h2 class="featurette-name-heading"><a href="https://www.crossref.org/people/dominika-tkaczyk/">Dominika Tkaczyk</a></h2>
+        <p class="lead">Crossref, UK</p>
+        <p>Dominika Tkaczyk is a Principal R&D Developer at Crossref. Her research interests focus on machine learning
+          and natural language processing, in particular their applications to the automated analysis of scientific
+          literature and research outputs, including the extraction of machine-readable metadata from scholarly
+          documents. Dominika received a PhD in Computer Science from Polish Academy of Sciences in 2016. In 2017 she
+          was awarded a Marie Sklodowska-Curie EDGE Fellowship at Trinity College Dublin in Ireland. She was a reviewer
+          for JCDL, SIGIR, LCPD and WOSP.</p>
+        <!-- <p>mhouston "at" nvidia.com</p> -->
       </div>
       <div class="col-md-3 bio-photo">
-        <img class="featurette-image img-responsive imagedropshadow" src="bio_images/anita.jpg" alt="Anita de Waard">
-      </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-9 bio-text">
-        <h2 class="featurette-name-heading"><a href="https://www.microsoft.com/en-us/research/people/kuansanw/">Kuansan
-            Wang</a></h2>
-        <p class="lead">Microsoft Research, USA</p>
-        <p>Kuansan Wang is a Managing Director at Microsoft Research, responsible for Microsoft Academic Services. His
-          team has managed many workshops and challenges using scholarly communication corpora, including at WWW, KDD,
-          WSDM, and SIGIR, and has contributed to similar efforts at AAAI, JCDL, and ACL.</p>
-      </div>
-      <div class="col-md-3 bio-photo">
-        <img class="featurette-image img-responsive imagedropshadow" src="bio_images/Kuansang.png" alt="Kuansan Wang">
-      </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-9 bio-text">
-        <h2 class="featurette-name-heading"><a href="https://llwang.net/">Lucy Lu Wang</a></h2>
-        <p class="lead">Allen Institute for Artificial Intelligence (AI2)</p>
-        <p>Lucy Lu Wang is a postdoctoral investigator at the Allen Institute for AI in the Semantic Scholar research
-          team, working on improving access to scholarly literature and biomedical applications of NLP. She was an
-          organizer of the 1st SciNLP workshop at AKBC 2020, the TREC-COVID shared task at TREC 2020, and the EPIC-QA
-          challenge at TAC 2020. She holds a PhD in Biomedical Informatics and Medical Education from the University of
-          Washington.</p>
-      </div>
-      <div class="col-md-3 bio-photo">
-        <img class="featurette-image img-responsive imagedropshadow" src="bio_images/lucy.jpg" alt="Lucy Lu Wang">
+        <img class="featurette-image img-responsive imagedropshadow" src="bio_images/dominika.jpeg" alt="Dominika Tkaczyk">
       </div>
     </div>
 
@@ -307,9 +371,9 @@
     <footer>
       <div class="footer-wrapper">
         <div class="footer-left">
-          <p>Contact: <a href="mailto:sdproc2021@googlegroups.com">sdproc2021@googlegroups.com</a></p>
-          <p>Sign up for updates: <a href="https://groups.google.com/g/sdproc-updates">https://groups.google.com/g/sdproc-updates</a></p>
+          <p>Contact: <a href="mailto:sdproc@googlegroups.com">sdproc@googlegroups.com</a></p>
           <p>Follow us: <a href="https://twitter.com/sdproc">https://twitter.com/SDProc</a></p>
+          <p>&copy; 2020 Oak Ridge National Laboratory</p>
         </div>
         <div class="footer-right">
           <a href="#">Back to top</a>

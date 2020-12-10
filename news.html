@@ -1,45 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Second Workshop on Scholarly Document Processing">
-  
-    <title>2nd Workshop on Scholarly Document Processing</title>
-  
-    <!-- Bootstrap core CSS -->
-    <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
-  
-    <!-- Fira Sans font -->
-    <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
-  
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-  
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-      <![endif]-->
-  
-    <!-- Custom styles for this template -->
-    <link href="styles.css" rel="stylesheet">
-  
-    <!-- icons -->
-    <link rel="stylesheet" href="./font-awesome-4.1.0/css/font-awesome.min.css">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="First Workshop on Scholarly Document Processing">
 
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  
-  </head>
+  <title>1st Workshop on Scholarly Document Processing</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Fira Sans font -->
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
+
+  <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- Custom styles for this template -->
+  <link href="styles.css" rel="stylesheet">
+
+  <!-- icons -->
+  <link rel="stylesheet" href="./font-awesome-4.1.0/css/font-awesome.min.css">
+
+</head>
 
 <body>
 
   <!-- NAVBAR ================================================== -->
 
-  <div class="navbar-wrapper"></div>
-  <script src="menu.js" type="text/javascript"></script>
+  <div class="navbar-wrapper">
+    <div class="container">
+      <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="container">
+
+          <!-- MENU BUTTON FOR SMALL SCREENS + LOGO ================================ -->
+
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="header-logo-link" href="index.html">
+              <div class="header-logo">
+                <span class="letter-highlight">S</span>cholarly
+                <span class="letter-highlight">D</span>ocument
+                <span class="letter-highlight">P</span>rocessing
+                @ <span class="letter-highlight">EMNLP 2020</span>
+              </div>
+            </a>
+          </div>
+
+          <!-- MENU OPTIONS ================================================== -->
+
+          <div class="navbar-collapse collapse pull-right">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="index.html">Home</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Call for Papers<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="cfp.html">Call for Papers</a></li>
+                  <li><a href="cfp.html#topics">Topics of Interest</a></li>
+                  <li><a href="cfp.html#sharedtasks">Shared Tasks</a></li>
+                  <li><a href="cfp.html#submission">Submission Information</a></li>
+                  <li><a href="cfp.html#dates">Important Dates</a></li>
+                  <li><a href="cfp.html#journal">Journal Extension</a></li>
+                  <li><a href="cfp.html#keynotes">Keynote Speakers</a></li>
+                  <li><a href="cfp.html#committees">Committees</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Shared Tasks <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="sharedtasks.html">Call for Participation</a></li>
+                  <li><a href="sharedtasks.html#clscisumm">CL-SciSumm</a></li>
+                  <li><a href="sharedtasks.html#laysumm">CL-LaySumm</a></li>
+                  <li><a href="sharedtasks.html#longsumm">LongSumm</a></li>
+                  <li><a href="sharedtasks.html#register">Registration</a></li>
+                  <li><a href="sharedtasks.html#dates">Important Dates</a></li>
+                  <li><a href="sharedtasks.html#organizers">Organizers</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Program<sup><mark>NEW!</mark></sup><b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="keynotespeakers.html">Keynotes</a></li>
+                  <li><a href="program.html">Program</a></li>
+                  <li><a href="accepted-papers.html">Accepted Papers-Research Track</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Committees<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="organizingcommittee.html">Organizing Committee</a></li>
+                  <li><a href="steeringcommittee.html">Steering Committee</a></li>
+                  <li><a href="programcommittee.html">Program Committee</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+              </li>
+              <li><a href="previousworkshops.html">Previous Workshops</a></li>
+              <li><a href="https://2020.emnlp.org/">Venue</a></li>
+            </ul>
+          </div>
+
+          <!-- MENU OPTIONS END ================================ -->
+
+        </div>
+      </div>
+    </div>
+  </div>
   
     <!-- MAIN CONTENT ============================================= -->
 
@@ -49,7 +126,51 @@
         <div class="row featurette">
           <div class="col-md-12">
             <h1>News Archive</h1>
-            <!-- <div class="alert alert-info" role="alert">
+            <div class="alert alert-info" role="alert">
+              <p>
+                <strong> Apply for EMNLP 2020 <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=kX-So6HNlkaviYyfHO_6kc6sgtkevo5FlcuZ17FkylVUMlZDM0JHWVoxRFRBT0RZUERRRjAzSUNURC4u"> Diversity and Inclusion </a> subsidy if you require financial assistance to attend.</strong><br />
+              </p>
+            </div>
+            <div class="alert alert-info" role="alert">
+              <p>
+                <strong> Sep 30: Our research track <a href="accepted-papers.html"> Accepted</a> papers are announced! </strong><br />
+              </p>
+            </div>
+             <div class="alert alert-info" role="alert">
+              <p>
+                <strong> <a href="https://2020.emnlp.org/registration">EMNLP 2020 Registration is now open!</a> Kindly register to attend SDP on Nov 19. Early Bird Registration ends on October 30.  </strong><br />
+              </p>
+            </div>
+            <div class="alert alert-info" role="alert">
+              <p>
+                <strong>Jun 30: The Test Set for the Shared Tasks would now be released on July 15, 2020 </strong><br />
+              </p>
+            </div>
+            <div class="alert alert-info" role="alert">
+              <p>
+                <strong>May 18: Second keynote announced</strong><br />
+              </p>
+              <p>
+               We are delighted to announce that <a href="keynotespeakers.html">Steinn Sigurðsson</a>, Scientific Director of arXiv and Professor in the Department of  Astronomy & Astrophysics at The Pennsylvania State University, will give a keynote presentation at the workshop!
+              </p>
+            </div>
+            <div class="alert alert-info" role="alert">
+              <p>
+                <strong>May 8: New Dates Announced!</strong><br/>
+              </p>
+              <p>
+               Paper Submission Deadline is now August 15, 2020!
+              </p>
+            </div>
+            <div class="alert alert-info" role="alert">
+              <p>
+                <strong>April 8: COVID-19 Update!</strong><br/>
+              </p>
+              <p>
+               First SDP will now be a virtual event following on <a href="https://2020.emnlp.org/attending#covid-online">EMNLP 2020's decision to go completely online.</a>
+              </p>
+            </div>
+            <div class="alert alert-info" role="alert">
               <p>
                 <strong>March 31</strong><br />
               </p>
@@ -64,7 +185,7 @@
               <p>
                 First Call for Papers for our <a href="cfp.html">research track</a> and our <a href="sharedtasks.html">shared task</a> track is out.
               </p>
-            </div> -->
+            </div>
           </div>
         </div>
 
@@ -75,9 +196,19 @@
     <footer>
       <div class="footer-wrapper">
         <div class="footer-left">
-          <p>Contact: <a href="mailto:sdproc2021@googlegroups.com">sdproc2021@googlegroups.com</a></p>
-          <p>Sign up for updates: <a href="https://groups.google.com/g/sdproc-updates">https://groups.google.com/g/sdproc-updates</a></p>
+          <p>Contact: <a href="mailto:sdproc@googlegroups.com">sdproc@googlegroups.com</a></p>
           <p>Follow us: <a href="https://twitter.com/sdproc">https://twitter.com/SDProc</a></p>
+          <p>&copy; 2020 Oak Ridge National Laboratory</p>
+          <p>
+            <a href="https://www.pexels.com/photo/library-university-books-students-12064/">
+              Photo of Library Room by Tamas Meszaros (Free to use)
+            </a>
+          </p>
+          <p>
+            <a href="https://pxhere.com/en/photo/1575603">
+              Picture of a network by asawin form PxHere (Creative Commons CC0)
+            </a>
+          </p>
         </div>
         <div class="footer-right">
           <a href="#">Back to top</a>
@@ -88,7 +219,10 @@
   </div>
 
   <!-- Bootstrap core JavaScript ================================================== -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script src="./dist/js/bootstrap.min.js"></script>
+  <script src="./assets/js/docs.min.js"></script>
 
 </body>
 

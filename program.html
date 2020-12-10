@@ -1,45 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Second Workshop on Scholarly Document Processing">
-  
-    <title>2nd Workshop on Scholarly Document Processing</title>
-  
-    <!-- Bootstrap core CSS -->
-    <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
-  
-    <!-- Fira Sans font -->
-    <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
-  
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-  
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-      <![endif]-->
-  
-    <!-- Custom styles for this template -->
-    <link href="styles.css" rel="stylesheet">
-  
-    <!-- icons -->
-    <link rel="stylesheet" href="./font-awesome-4.1.0/css/font-awesome.min.css">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="First Workshop on Scholarly Document Processing">
 
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  
-  </head>
+  <title>1st Workshop on Scholarly Document Processing</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Fira Sans font -->
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
+
+  <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- Custom styles for this template -->
+  <link href="styles.css" rel="stylesheet">
+
+  <!-- icons -->
+  <link rel="stylesheet" href="./font-awesome-4.1.0/css/font-awesome.min.css">
+
+</head>
 
 <body>
 
   <!-- NAVBAR ================================================== -->
 
-  <div class="navbar-wrapper"></div>
-  <script src="menu.js" type="text/javascript"></script>
+  <div class="navbar-wrapper">
+    <div class="container">
+      <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="container">
+
+          <!-- MENU BUTTON FOR SMALL SCREENS + LOGO ================================ -->
+
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="header-logo-link" href="index.html">
+              <div class="header-logo">
+                <span class="letter-highlight">S</span>cholarly
+                <span class="letter-highlight">D</span>ocument
+                <span class="letter-highlight">P</span>rocessing
+                @ <span class="letter-highlight">EMNLP 2020</span>
+              </div>
+            </a>
+          </div>
+
+          <!-- MENU OPTIONS ================================================== -->
+
+          <div class="navbar-collapse collapse pull-right">
+            <ul class="nav navbar-nav">
+              <li><a href="index.html">Home</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Call for Papers<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="cfp.html">Call for Papers</a></li>
+                  <li><a href="cfp.html#topics">Topics of Interest</a></li>
+                  <li><a href="cfp.html#sharedtasks">Shared Tasks</a></li>
+                  <li><a href="cfp.html#submission">Submission Information</a></li>
+                  <li><a href="cfp.html#dates">Important Dates</a></li>
+                  <li><a href="cfp.html#journal">Journal Extension</a></li>
+                  <li><a href="cfp.html#keynotes">Keynote Speakers</a></li>
+                  <li><a href="cfp.html#committees">Committees</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Shared Tasks<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="sharedtasks.html">Call for Participation</a></li>
+                  <li><a href="sharedtasks.html#clscisumm">CL-SciSumm</a></li>
+                  <li><a href="sharedtasks.html#laysumm">CL-LaySumm</a></li>
+                  <li><a href="sharedtasks.html#longsumm">LongSumm</a></li>
+                  <li><a href="sharedtasks.html#register">Registration</a></li>
+                  <li><a href="sharedtasks.html#dates">Important Dates</a></li>
+                  <li><a href="sharedtasks.html#organizers">Organizers</a></li>
+                </ul>
+              </li>
+              <li class="dropdown active">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Program<sup><mark>NEW!</mark></sup><b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="keynotespeakers.html">Keynotes</a></li>
+                  <li><a href="program.html">Program</a></li>
+                  <li><a href="accepted-papers.html">Accepted Papers-Research Track</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Committees<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="organizingcommittee.html">Organizing Committee</a></li>
+                  <li><a href="steeringcommittee.html">Steering Committee</a></li>
+                  <li><a href="programcommittee.html">Program Committee</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+              </li>
+              <li><a href="previousworkshops.html">Other Workshops</a></li>
+              <li><a href="https://2020.emnlp.org/">Venue</a></li>
+            </ul>
+          </div>
+
+          <!-- MENU OPTIONS END ================================ -->
+
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- MAIN CONTENT ============================================= -->
 
@@ -47,13 +124,301 @@
 
     <div class="row">
       <div class="col-md-12">
-        <h1>Workshop Program</h2>
+        <h1><a href="https://virtual.2020.emnlp.org/workshop_WS-7.html">Workshop Program </a> and <a href="https://www.aclweb.org/anthology/events/emnlp-2020/#2020-sdp-1">Proceedings</a></h2>
         <p>
           The 1<sup>st</sup> Workshop on Scholarly Document Processing will be held online in conjunction with the <a href="https://2020.emnlp.org/">2020 Conference on Empirical Methods in Natural Language Processing</a> (EMNLP 2020). The workshop will be held as a full-day event on November 19, 2020 (after the main conference).
         </p>
+        <style>
+ table, th, td {
+            border: 1px solid black;
+font-size: 13px;
+border-collapse: collapse;
+}
+</style>
         <p>
-          The detailed program of the workshop will be announced here in due time.
+          <mark> All times are in EST </mark>
         </p>
+  
+   <table>
+  <tr>
+    <th style="background-color:yellow">Time in EST</th>
+    <th>Plenary -- <a href="https://virtual.2020.emnlp.org/workshop_WS-7.html">Zoom Link 1</a></th>
+    <th>Breakout -- <a href="https://virtual.2020.emnlp.org/workshop_WS-7.html">Zoom Link 2</a></th>
+    <th>Presentations in Shared Task Track</th>
+    <th><th>
+  </tr>
+  <tr>
+    <td><b><i>8:45</i></b></td>
+    <td><b><i>Workshop Start</i></b></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>8.45-9:00</td>
+    <td><a href="program/SDP2020-Intro.pdf">Introduction to SDP</a></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</font>
+<tr>
+    <td>9:00-9:15</td>
+    <td><a href="https://github.com/WING-NUS/scisumm-corpus/blob/master/publications/CL-SciSumm2020/CL-SciSumm2020_slidedeck.pdf">Teaser for Shared Tasks (5 mins each)</a></td>
+    <td>Shared Task: 9:15-10:40 </td>
+    <td></td>
+    <td></td>
+  </tr>
+
+<tr>
+    <td><b><i>9:15 - 10:35</i></b></td>
+    <td><b><i>Research Track: Session 1 COVID-19 Document Processing</i></b></td>
+    <td>Shared Task 1: 9:15-9:55</td>
+    <td>9:15-9:27</td>
+  <td><a href="https://virtual.2020.emnlp.org/paper_WS-7.18.html">CL-SciSumm (Task 1a): Chai et al., NLP-PINGAN-TECH @ CL-SciSumm 2020</a></td>
+  </tr>
+
+<tr>
+    <td>9:15-9:35</td>
+    <td><a href="https://virtual.2020.emnlp.org/paper_WS-7.39.html">Wu et al., Acknowledgement Entity Recognition in CORD-19 Papers</a></td>
+    <td></td>
+    <td>9:28-9:40</td>
+    <td><a href="https://virtual.2020.emnlp.org/paper_WS-7.20shared.html">LaySumm 2: Yu et al., Dimsum @LaySumm 20<a></td>
+  </tr>
+
+<tr>
+    <td>9:35-9:55</td>
+    <td><a href="https://virtual.2020.emnlp.org/paper_WS-7.32.html">Bhambhoria et al., A Smart System to Generate and Validate Question Answer Pairs for COVID-19 Literature.</a></td>
+    <td></td>
+    <td>9:40-9:55</td>
+    <td><a href="https://virtual.2020.emnlp.org/paper_WS-7.48_2shared.html">LaySumm 3 & LongSumm 2: Ghosh Roy et al., Summaformers @ LaySumm 20, LongSumm 20</a></td>
+  </tr>
+
+<tr>
+    <td>9:55-10:15</td>
+    <td><a href="https://virtual.2020.emnlp.org/paper_WS-7.60.html">Zhang et al., Covidex: Neural Ranking Models and Keyword Search Infrastructure for the COVID-19 Open Research Dataset.</a></td>
+    <td>Shared Task 2: 9:55-10:40</td>
+    <td>9:55-10:10</td>
+    <td><a href="https://virtual.2020.emnlp.org/paper_WS-7.15shared.html">Li et al., CIST@CL-SciSumm 2020, LongSumm 2020: Automatic Scientific Document Summarization</a></td>
+  </tr>
+
+
+<tr>
+    <td>10:15-10:35</td>
+    <td><a href="https://virtual.2020.emnlp.org/paper_WS-7.6.html">Satish et al., The Impact of Preprint Servers in the Formation of Novel Ideas.</a></td>
+    <td></td>
+    <td>10:10-10:25</td>
+    <td><a href="https://virtual.2020.emnlp.org/paper_WS-7.43shared.html">LongSumm 3 & CL-SciSumm (Task 2): Reddy et al., IIITBH-IITP@CL-SciSumm20, CL-LaySumm20, LongSumm20</a></td>
+  </tr>
+
+<tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>10:25-10:40</td>
+  <td><a href="https://virtual.2020.emnlp.org/paper_WS-7.45.html">Gidiotis et al., AUTH @ CLSciSumm 20, LaySumm 20, LongSumm 20</a></td>
+  </tr>
+
+<tr>
+    <td>10:40-11:25</td>
+    <td><b>Keynote 1:  Kuansan Wang <br>
+      <a href="program/KuansanWang_SDP2020.pdf">Mitigating Scholarly Corpus Biases with Citations: A Case Study on CORD-19</a></b></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+
+<tr>
+    <td><b><i>11:25-11:50</i></b></td>
+    <td><b><i>Break</i></b></td>
+    <td><b><i>Break </i></b></td>
+    <td><b><i>Break </i></b></td>
+    <td></td>
+  </tr>
+
+
+<tr>
+    <td></td>
+    <td><b><i>Research Track: Session 2 SDP Mixed Session</i></b></td>
+    <td><b><i>Shared Task Track Continues</i></b></td>
+    <td></td>
+    <td></td>
+  </tr>
+
+<tr>
+    <td>11:50-12:10</td>
+    <td><a href="https://virtual.2020.emnlp.org/paper_WS-7.8.html">Berger et al., Effective Distributed Representations for Academic Expert Search.</a></td>
+    <td>Shared Task 3: <br> 11:50 - 12:50</td>
+    <td>11:50 - 12:05</td>
+    <td><a href="https://virtual.2020.emnlp.org/paper_WS-7.49.html">CL-SciSumm (Task 1a): Aumiller et al., UniHD@CL-SciSumm 2020: Citation Extraction as Search</a></td>
+  </tr>
+
+
+<tr>
+    <td>12:10-12:30</td>
+  <td><a href="https://virtual.2020.emnlp.org/paper_WS-7.26.html">Kim et al., Learning CNF Blocking for Large-scale Author Name Disambiguation.</a></td>
+    <td></td>
+    <td>12:05 - 12:17</td>
+    <td><a href="https://virtual.2020.emnlp.org/paper_WS-7.37shared.html">LaySumm 1: Seungwon Kim, Using Pre-Trained Transformer for Better Lay Summarization</a></td>
+  </tr>
+
+
+<tr>
+    <td>12:30-12:50</td>
+    <td><a href="https://virtual.2020.emnlp.org/paper_WS-7.44.html">Müller et al., Reconstructing Manual Information Extraction with DB-to-Document Backprojection: Experiments in the Life Science Domain.</a></td>
+    <td></td>
+    <td>12:17 - 12:29</td>
+    <td><a href="https://virtual.2020.emnlp.org/paper_WS-7.56shared.html">LongSumm 1: Gharebagh et al., GUIR @ LongSumm 2020: Learning to Generate Long Summaries from Scientific Documents </a></td>
+  </tr>
+
+
+<tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>12:30 - 12:42</td>
+  <td><a href="https://virtual.2020.emnlp.org/paper_WS-7.54.html">Umapathy et al., CiteQA@CLSciSumm 2020</a></td>
+  </tr>
+
+
+<tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>12:42 - 12:50</td>
+    <td>Poster Session Announcement</td>
+  </tr>
+
+
+<tr>
+    <td>12:50-13:30</td>
+    <td><b><i>Poster Pitches (Research Track)</i></b></td>
+    <td><b><i>Poster Track</i></b></td>
+    <td></td>
+    <td></td>
+  </tr>
+
+
+
+
+<tr>
+    <td></td>
+  <td><a href="accepted-papers.html">11 Posters + 2 Demo Presentations</a></td>
+    <td>Posters: <a href="https://www.virtualchair.net/events/emnlp2020">Gather Town</a> Room N</td>
+    <td></td>
+    <td></td>
+  </tr>
+
+<tr>
+    <td>13:30 - 14:00</td>
+    <td><b><i>Break</i></b></td>
+    <td>Posters: <a href="https://www.virtualchair.net/events/emnlp2020">Gather Town</a> Room N</td>
+    <td></td>
+    <td></td>
+  </tr>
+
+
+<tr>
+    <td></td>
+    <td><b><i>Research Track: Session 3: Short papers and Findings</i></b></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+
+
+<tr>
+    <td>14:00-14:10</td>
+    <td>
+ <a href="https://virtual.2020.emnlp.org/paper_WS-7.40.html">Ling & Chen, DeepPaperComposer: A Simple Solution for Training Data Preparation for Parsing Research Papers</a>
+</td>
+    <td></td>
+    <td>14:00-14:50</td>
+    <td>Shared Task Poster Presentations at <a href="https://www.virtualchair.net/events/emnlp2020">Gather Town</a> in Room N and Room A </td>
+  </tr>
+
+<tr>
+    <td>14:10 - 14:20</td>
+    <td><a href="https://virtual.2020.emnlp.org/paper_WS-7.14.html">Medic & Snajder, Improved Local Citation Recommendation Based on Context Enhanced with Global Information</a></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+
+<tr>
+    <td>14:20-14:30</td>
+    <td><a href="https://virtual.2020.emnlp.org/paper_WS-7.1457.html">Cao et al., Will This Idea Spread Beyond Academia? Understanding Knowledge
+      Transfer of Scientific Concepts across Text Corpora </a> (<b>Findings of EMNLP</b>)</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+
+<tr>
+    <td>14:30-14:40</td>
+    <td><a href="https://virtual.2020.emnlp.org/paper_WS-7.1728.html">Subramanian et al., MedICaT: A Dataset of Medical Images, Captions, and Textual References </a> (<b>Findings of EMNLP</b>)</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+
+<tr>
+    <td>14:40 -14:50</td>
+    <td>
+<a href="https://virtual.2020.emnlp.org/paper_WS-7.2502.html">Noh et al., Literature Retrieval for Precision Medicine with Neural Matching and Faceted Summarization </a> (<b>Findings of EMNLP</b>)
+</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+
+<tr>
+    <td>14:50- 15:20</td>
+    <td><b><i><a href="https://github.com/WING-NUS/scisumm-corpus/blob/master/publications/CL-SciSumm2020/CL-SciSumm2020_slidedeck.pdf">Overview of Results of the Shared Tasks</a></i></b></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+
+<tr>
+    <td>15:20 -15:30</td>
+    <td><b><i>Break</i></b></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+
+<tr>
+    <td>15:30 -16:15</td>
+    <td><b><i>Keynote 2: Steinn Sigurdsson <br>
+      <a href="program/SteinnSigurdsson_SDP2020.pdf">The Future of ArXiv and Knowledge Discovery in Open Science</i></b></a></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+
+<tr>
+    <td>16:15 - 17:00</td>
+    <td><b><i>Plenary Regroup & Panel (OC + Keynote Speakers)</i></b></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+
+<tr>
+    <td>17:00</td>
+    <td><b><i>Close</i></b></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+
+
+</table>
+
+
+</font>
+
       </div>
     </div>
 
@@ -64,9 +429,9 @@
     <footer>
       <div class="footer-wrapper">
         <div class="footer-left">
-          <p>Contact: <a href="mailto:sdproc2021@googlegroups.com">sdproc2021@googlegroups.com</a></p>
-          <p>Sign up for updates: <a href="https://groups.google.com/g/sdproc-updates">https://groups.google.com/g/sdproc-updates</a></p>
+          <p>Contact: <a href="mailto:sdproc@googlegroups.com">sdproc@googlegroups.com</a></p>
           <p>Follow us: <a href="https://twitter.com/sdproc">https://twitter.com/SDProc</a></p>
+          <p>&copy; 2020 Oak Ridge National Laboratory</p>
         </div>
         <div class="footer-right">
           <a href="#">Back to top</a>
@@ -77,7 +442,10 @@
   </div>
 
     <!-- Bootstrap core JavaScript ================================================== -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="./dist/js/bootstrap.min.js"></script>
+    <script src="./assets/js/docs.min.js"></script>
 
 </body>
 
